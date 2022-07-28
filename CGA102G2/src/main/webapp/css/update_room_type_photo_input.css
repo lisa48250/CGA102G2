@@ -1,0 +1,371 @@
+@charset "UTF-8";
+  /* ========= header 區域 ========= */
+        body {
+            padding: 0px;
+            margin: 0px;
+            width: 1300px;
+            height:100vh;
+            overflow-x: hidden;
+        }
+
+        * {
+            box-sizing: content-box;
+        }
+
+        .nav {
+            display: inline-block;
+            height: 95px;
+            text-align: end;
+
+        }
+
+        .logo img {
+            width: 350px;
+            height: 80px;
+        }
+
+        .logo {
+            padding: 10px;
+            top: 0px;
+            width: 1300px;
+        }
+
+        .logo_a {
+            float: left;
+        }
+
+        .nav-top-sighout {
+            border-radius: 20px;
+            border: 1px;
+            background-color: #757575;
+            font-size: 20px;
+            padding: 5px 22px 5px 22px;
+            color: #ffffff;
+            position: relative;
+            top: -5px;
+            text-align: center;
+            right: 70px;
+            margin-right: 50px;
+            text-decoration: none;
+        }
+
+        .nav-top-sighout:hover {
+            background-color: #ffffff;
+            border: #757575 3px solid;
+            color: #757575;
+        }
+
+        .line {
+            height: 5px;
+            width: 100%;
+            margin-top: 20px;
+            background-color: #757575;
+        }
+
+        .nav-top-a {
+            display: inline-block;
+            height: 45px;
+            width: 45px;
+            position: relative;
+            margin-right: 100px;
+            top: 10px;
+        }
+
+        .nav-top-chat {
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        /* ========= aside 區域 ========= */
+       aside.aside {
+    background-color: rgb(179, 188, 190);
+    width: 240px;
+    left: 0;
+    top: 0px;
+    height: 100%;
+    padding: 20px 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+aside.aside nav.nav ul.nav_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    height: 350px;
+    text-align: center;
+
+}
+
+aside.aside nav.nav ul.nav_list .pod:hover>#list {
+    display: block;
+}
+
+aside.aside nav.nav ul.nav_list>li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0px;
+    width: 300px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+aside.aside nav.nav ul.nav_list>li:hover>#list {
+    display: block;
+}
+
+aside.aside nav.nav div {
+    display: inline-block;
+    text-align: center;
+}
+
+aside.aside nav.nav div img {
+    display: inline;
+    position: relative;
+    height: 10%;
+    width: 10%;
+    top: 15px;
+    left: 10px;
+}
+
+aside.aside nav.nav div p {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0px;
+    width: 100px;
+    height: 50px;
+    top: 15px;
+    color: #757575;
+    font-size: 25px;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0px;
+    left: 10px;
+}
+
+aside.aside nav.nav ul.nav_list>li>img {
+    height: 70%;
+    width: 15%;
+    display: inline-block;
+    position: absolute;
+    right: 140px;
+
+}
+
+aside.aside nav.nav ul.nav_list li {
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 160px;
+    bottom: 10px;
+    margin-top: 10px;
+    left: 30px;
+}
+
+aside.aside nav.nav ul.nav_list li a {
+    display: inline-block;
+    color: #757575;
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 160px;
+
+}
+
+aside.aside nav.nav ul.nav_list li a:hover {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+ #list>li {
+    height: 20px;
+}
+
+#list>li>a {
+    font-size: 16px;
+     text-decoration-line: underline;
+}
+
+#list {
+    display: none;
+    margin-left: -100px;
+}
+
+ /* ========= table 區域 ========= */
+#tableall{
+  border-radius:20px;
+   /* position: relative; */
+    /* border:2px solid rgb(34, 30, 37); */
+  	position: absolute;
+    background-color: rgb(253, 253, 253);
+  left:400px;
+   top:120px;
+   box-shadow:3px 3px 5px 6px #cccccc;
+   width:700px;
+   height:400px;
+  }      
+  table#table-1 {
+   display:block;
+   border-top-left-radius:20px;
+   border-top-right-radius:20px;
+	width: 700px;
+	background-color: rgb(240, 240, 240);
+    border: 3px ;
+    text-align: center;
+   font-family: 'Anek Malayalam', sans-serif;
+   color:rgb(34, 30, 37);
+  }
+  
+  table#table-1>h3 {
+  text-align: center;
+  }
+  
+  table#table-1>tbody>tr>td{
+/* border:1px solid red; */
+  text-align: center;
+  position:relative;
+  left:290px;
+  }
+   table#table-2 {
+  position:relative;
+  margin-left:50px;
+   border-collapse:separate;
+  border-spacing:0px 8px;
+  }
+  table#table-2 tr{
+line-height: 30px;
+  }
+   
+ table#table-2 td{
+  display:inline-block;
+  }
+ #room_type_content{
+ position: absolute;
+ display:inline-block;
+ height:120px;
+ width:400px;
+  padding:10px;
+ word-break:break-all;
+word-wrap:break-word;
+left:200px;
+border-radius:10px;
+ }
+ 
+ #room_type_sale_status-tr{
+ position:relative;
+ margin-bottom:-1000px;
+ }
+  
+   table#table-2 input, select{
+   position:absolute;
+  width:200px;
+  border-radius: 5px;
+  border:1px solid gray;
+  left:200px;
+  }
+  
+  #roomtypeid{
+  position:absolute;
+   left:300px;
+   font-weight:bold;
+   color: royalblue;
+  }
+  
+  
+  #order_date{
+  position:absolute;
+   left:220px;
+   color: black;
+  }
+  
+/*   ==============*button*============== */
+  #submit{
+  position:absolute;
+  left:500px;
+  top:630px;
+  }
+  
+  .wrapper{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  bottom:600px;
+  left:50px;
+}
+
+button{
+  font-family: 'Ubuntu', sans-serif;
+  position: absolute;
+  left:500px;
+  top:720px;
+  transform: translate(-50%, -50%);
+  
+  width: 80px;
+  height: 20px;
+  line-height: 1;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 3px solid #8C82FC;
+  background: #fff;
+  color: #8C82FC;
+  border-radius: 40px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all .35s;
+}
+
+button:hover{
+  background: #8C82FC;
+  color: #fff;
+}
+
+button span{
+  opacity: 1;
+  visibility: visible;
+  transition: all .35s;
+}
+
+.success{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .35s;
+}
+
+.success svg{
+  width: 20px;
+  height: 20px;
+  fill: yellowgreen;
+  transform-origin: 50% 50%;
+  transform: translateY(-50%) rotate(0deg) scale(0);
+  transition: all .35s;
+}
+
+button.is_active{
+  width: 40px;
+  height: 40px;
+}
+
+button.is_active .success{
+  opacity: 1;
+  visibility: visible;
+}
+
+button.is_active .success svg{
+  margin-top: 50%;
+  transform: translateY(-50%) rotate(720deg) scale(1);
+}
+
+button.is_active span{
+  opacity: 0;
+  visibility: hidden;
+}

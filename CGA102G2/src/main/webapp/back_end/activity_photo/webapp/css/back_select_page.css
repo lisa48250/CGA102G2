@@ -1,0 +1,447 @@
+@charset "UTF-8";
+
+  /* ========= header 區域 ========= */
+        body {
+	position: absolute;
+    height: 500px;
+    width: 1200px;
+    margin: 0px;
+        }
+        
+  header{
+  background-color: #ffffff;
+  }
+.hr{
+	background-color: #757575;
+    height: 2px;
+    width: 247px;
+    position: relative;
+    left: 10px;
+}
+
+        * {
+            box-sizing: content-box;
+        }
+
+        .nav {
+            display: inline-block;
+            height: 95px;
+            text-align: end;
+            position: relative;
+ 			 left:-20px;
+        }
+
+        .logo img {
+            width: 350px;
+            height: 80px;
+        }
+
+        .logo {
+  			top: 0px;
+  			width: 1242px;
+  			position: relative;
+    		left: 10px;
+    		padding: 10px 0px;
+        }
+
+        .logo_a {
+            float: left;
+            position: relative;
+ 		    left: 19px;
+        }
+
+        .nav-top-sighout {
+            border-radius: 20px;
+            border: 1px;
+            background-color: #757575;
+            font-size: 20px;
+            padding: 5px 22px 5px 22px;
+            color: #ffffff;
+            position: relative;
+            top: -5px;
+            text-align: center;
+            right: -8px;
+            margin-right: 50px;
+            text-decoration: none;
+        }
+
+        .nav-top-sighout:hover {
+            background-color: #ffffff;
+            border: #757575 3px solid;
+            color: #757575;
+        }
+
+        .line {
+			height: 5px;
+    		width: 1263px;
+    		position: relative;
+    		top: 21px;
+    		background-color: #757575;
+    		left: 20px;
+        }
+
+        .nav-top-a {
+            display: inline-block;
+            height: 45px;
+            width: 45px;
+            position: relative;
+            margin-right: 100px;
+            top: 10px;
+            left: 78px;
+        }
+
+        .nav-top-chat {
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        /* ========= aside 區域 ========= */
+aside.aside {
+    background-color: rgb(179, 188, 190);
+    width: 239px;
+    left: 0;
+    top: 46px;
+    height: 605px;
+    margin-right: 0px;
+}
+
+aside.aside nav.nav ul.nav_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-left:-10px;
+    height: 350px;
+    text-align: center;
+
+}
+
+aside.aside nav.nav ul.nav_list .pod:hover>#list {
+    display: block;
+}
+
+aside.aside nav.nav ul.nav_list>li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0px;
+    width: 300px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+aside.aside nav.nav ul.nav_list>li:hover>#list {
+    display: block;
+}
+
+aside.aside nav.nav div {
+    display: inline-block;
+    text-align: center;
+}
+
+aside.aside nav.nav div img {
+    display: inline;
+    position: relative;
+    height: 10%;
+    width: 10%;
+    top: 15px;
+    left: 10px;
+}
+
+aside.aside nav.nav div p {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0px;
+    width: 100px;
+    height: 50px;
+    top: 15px;
+    color: #757575;
+    font-size: 25px;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0px;
+    left: 10px;
+}
+
+aside.aside nav.nav ul.nav_list>li>img {
+    height: 70%;
+    width: 15%;
+    display: inline-block;
+    position: absolute;
+    right: 140px;
+
+}
+
+aside.aside nav.nav ul.nav_list li {
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 160px;
+    bottom: 10px;
+    margin-top: 10px;
+    left: 30px;
+}
+
+aside.aside nav.nav ul.nav_list li a {
+    display: inline-block;
+    color: #757575;
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 160px;
+
+}
+
+aside.aside nav.nav ul.nav_list li a:hover {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+ #list>li {
+    height: 20px;
+}
+
+#list>li>a {
+    font-size: 16px;
+     text-decoration-line: underline;
+}
+
+#list {
+    display: none;
+    margin-left: -100px;
+}
+        /* ========= table 區域 ========= */
+  #tableall{
+    border-radius: 20px;
+    background-color: rgb(253, 253, 253);
+    left: 23px;
+    height: 510px;
+    width: 960px;
+    box-shadow: 3px 3px 5px 6px #cccccc;
+    position: relative;
+    top: 70px;
+  }      
+        
+  table#table-1 {
+   border-top-left-radius:20px;
+   border-top-right-radius:20px;
+	width: 960px;
+	background-color: rgb(240, 240, 240);
+    border: 3px ;
+    text-align: center;
+   font-family: 'Anek Malayalam', sans-serif;
+   color:rgb(34, 30, 37);
+  }
+	#table-2 {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 960px;
+    background-color: rgb(240, 240, 240);
+    border: 3px;
+    position: relative;
+    top: 398px;
+  }
+  tbody>tr>td{
+  height: 50px;
+  }
+ 
+  
+  
+  table#table-1 h4 {
+    color: red;
+    display: block;
+    margin-bottom: 1px;
+  }
+  h4 {
+    color: blue;
+    display: inline;
+    
+  }
+  h3{
+position: relative;
+    top: -100px;
+    left: -400px;
+    font-family: 'Anek Malayalam', sans-serif;
+  }
+  
+  .selectall {
+   border:1px solid rgb(104, 64, 152);
+   background-color: rgb(95, 108, 199);
+   opacity: 0.5;
+   border-radius:20px;
+   height: 30px;
+   width:120px;
+    display: flex;
+    align-items: center;
+  }
+   
+    .selectall > a{
+    position:relative;
+    color: white;
+    text-decoration:none;
+    font-family: 'Anek Malayalam', sans-serif;
+    left:10px;
+  }
+.newspostbody{
+	position: absolute;
+	top: 8px;
+}
+.th{
+	width:200px;
+}
+.newspostbody td{
+    border:1px solid #ccc;
+    height:20px;
+} 
+
+.newspostp{
+    position: relative;
+    top: -179px;
+    left: 20px;
+    width: 800px;
+}
+.newsPostId{
+	position: relative;
+    top: -338px;
+    left: 520px;
+    width: 200px;
+}
+.form1{
+	width: 220px;
+    position: relative;
+    margin-right: 3px
+}
+.newsstatus{
+	position: relative;
+    top: -360px;
+    left: 740px;
+    width: 250px;
+}
+  .addroomtype{
+    border: 1px solid rgb(104, 64, 152);
+    background-color: #757575;
+    opacity: 0.5;
+    border-radius: 20px;
+    height: 30px;
+    width: 120px;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+    line-height: 30px;
+    left: 349px;
+    top: -309px;
+  }
+  
+   .addroomtype > a{
+    position:relative;
+    color: white;
+    text-decoration:none;
+    font-family: 'Anek Malayalam', sans-serif;
+    left:27px;
+  }
+  .addroometyp02{
+  	border: 1px solid rgb(104, 64, 152);
+    background-color: #757575;
+    opacity: 0.5;
+    border-radius: 20px;
+    height: 30px;
+    width: 130px;
+    align-items: center;
+    margin-top: 100px;
+    line-height: 30px;
+    position: relative;
+    top: -490px;
+    left: 200px;
+
+  }
+     .addroomtype02 > a{
+    position:relative;
+    color: white;
+    text-decoration:none;
+    font-family: 'Anek Malayalam', sans-serif;
+    left:27px;
+  }
+  main{
+  	position: absolute;
+    background-color: rgb(253, 253, 253);
+/*   	width:1000px; */
+  	left:250px;
+  	bottom:0px;
+  	top:100px;
+/*   	flex-grow: 1;  */
+  	height: 600px;
+  }
+ .file1{
+    position: absolute;
+	top: 470px;
+    left: 371px;
+}
+.file2{
+	position: absolute;
+    top: 460px;
+    left: 492px;
+}
+.file1>b>b{
+	position: relative;
+    left: -83px;
+    top: -9px;
+}
+.news_img{
+	height:90px;
+}
+
+/* ===================add======================== */
+  	
+#addform{
+	position: absolute;
+    top: 67px;
+    left: 33px;
+}
+.editor1{
+	position: absolute;
+    top: 140px;
+    left: 500px;
+}
+#submit{
+	position: absolute;
+    top: 338px;
+    left: 500px;
+    width: 374px;
+    height: 35px;
+}  
+
+#addform>div{
+	margin:10px 0px; 
+}	
+
+.up{
+	position: absolute;
+    top: 187px;
+    left: 108px;
+}
+.addimg{
+	position: absolute;
+    top: 177px;
+}
+.add_news_img{
+	height: 144px;
+    position: absolute;
+    top: 232px;
+    left: 92px;
+}
+.error{
+	    position: absolute;
+    top: 64px;
+    left: 610px;
+}
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  	
+  

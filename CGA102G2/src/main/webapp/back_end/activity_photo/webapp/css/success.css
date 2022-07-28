@@ -1,0 +1,622 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body {
+	/* height: 3175px;
+	margin: 0; */
+}
+
+html {
+	overflow-x: hidden;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "cwTeXYen", sans-serif;
+}
+
+.nav-ul-bot {
+	display: inline;
+}
+
+.nav-ul-top {
+	display: inline;
+}
+
+.nav-li {
+	display: inline-block;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav-left-div p {
+	width: 80px;
+	color: black;
+	font-size: 20px;
+	display: block;
+	width: 100%;
+	border-right: 2px solid black;
+	padding-right: 12px;
+	color: #7D7D7D;
+	border-color: #7D7D7D;
+}
+
+.nav-left-div p:hover {
+	border-top: solid 3px black;
+	margin-top: 3px;
+	border-color: #7D7D7D;
+}
+
+header {
+	height: 90px;
+}
+
+hr {
+	height: 3px;
+	background-color: gray;
+}
+
+nav {
+	height: 200px;
+	width: 1263px;
+}
+
+.nav-top-a {
+	display: block;
+	position: absolute;
+	top: 40px;
+	left: 1150px;
+	width: 50px;
+}
+
+.nav-logo {
+	width: 400px;
+	height: 94px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.nav-left-div {
+	margin-top: 10px;
+}
+
+.nav-top-div {
+	display: inline;
+	width: 50px;
+	position: relative;
+	top: -5px;
+	right: 120px;
+}
+
+.nav-top-img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 40px;
+	left: 900px;
+}
+
+.nav-top-img-1 {
+	width: 50px;
+	height: 50px;
+}
+
+.nav-top-top {
+	display: inline;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1206px;
+
+}
+
+.nav-top {
+	display: inline;
+	position: relative;
+	top: 0px;
+	right: -280px;
+
+}
+
+.text {
+	border: 2px;
+	border-radius: 20px;
+	border: 1px black;
+	background-color: #757575;
+	font-size: 20px;
+	padding: 8px 20px 8px 20px;
+	color: white;
+	width: 170px;
+	position: absolute;
+	top: 45px;
+	left: 967px;
+	text-align: center;
+}
+
+.nav-top-bot {
+	margin-left: 100px;
+	margin-top: 0px;
+	position: absolute;
+	top: 140px;
+	height: 50px;
+}
+
+.weather-div {
+	display: inline;
+	position: relative;
+	top: 20px;
+	left: 475px;
+}
+
+.weather-tr {
+	position: absolute;
+	left: 95px;
+	top: 0px;
+	width: 330px;
+}
+
+.weather-tr-1 {
+	position: absolute;
+	left: 95px;
+	top: 20px;
+}
+
+.td {
+	width: 42px;
+	padding-right: 5px;
+}
+
+.th {
+	width: 42px;
+	padding-right: 7px;
+}
+
+.icon-img {
+	width: 30px;
+	margin-right: 9px;
+}
+
+.weather-div {
+	visibility: hidden;
+}
+
+.icon {
+	visibility: hidden;
+	position: absolute;
+	left: 575px;
+	top: 70px;
+	width: 320px;
+}
+/* <!-- =======================main嚙踝蕭========================== --> */
+
+
+.div1{
+	background-color: #e5e5e5;
+	/* border: 1px solid black; */
+	height:630px;
+	width: 1350px;
+	position: relative;
+	top: 120px;
+	left: -10px;
+}
+.div2{
+	background-color: white;
+	/* border: 3px solid plum; */
+	height: 510px;
+	width: 1100px;
+	position: relative;
+	top: 20px;
+	left: 80px;
+}
+.div3{
+	/* border: 1px solid black; */
+	height: 170px;
+	width: 1000px;
+	position: absolute;
+	left: 50px;
+	top: 100px;
+}
+.div3>.p2{
+	font-size: 50px;
+	position: absolute;
+	bottom: -15px;
+	left: 260px;
+	top: 100px;
+}
+/* ==========嚙踝蕭��============ */
+.success-checkmark {
+	width: 80px;
+	height: 115px;
+	margin: 0 auto;
+	position: absolute;
+	top: 10px;
+	left: 450px;
+  }
+  .success-checkmark .check-icon {
+	width: 80px;
+	height: 80px;
+	position: relative;
+	border-radius: 50%;
+	box-sizing: content-box;
+	border: 4px solid #4caf50;
+  }
+  .success-checkmark .check-icon::before {
+	top: 3px;
+	left: -2px;
+	width: 30px;
+	transform-origin: 100% 50%;
+	border-radius: 100px 0 0 100px;
+  }
+  .success-checkmark .check-icon::after {
+	top: 0;
+	left: 30px;
+	width: 60px;
+	transform-origin: 0 50%;
+	border-radius: 0 100px 100px 0;
+	animation: rotate-circle 4.25s ease-in;
+  }
+  .success-checkmark .check-icon::before, .success-checkmark .check-icon::after {
+	content: "";
+	height: 100px;
+	position: absolute;
+	background: #ffffff;
+	transform: rotate(-45deg);
+  }
+  .success-checkmark .check-icon .icon-line {
+	height: 5px;
+	background-color: #4caf50;
+	display: block;
+	border-radius: 2px;
+	position: absolute;
+	z-index: 10;
+  }
+  .success-checkmark .check-icon .icon-line.line-tip {
+	top: 46px;
+	left: 14px;
+	width: 25px;
+	transform: rotate(45deg);
+	animation: icon-line-tip 0.75s;
+  }
+  .success-checkmark .check-icon .icon-line.line-long {
+	top: 38px;
+	right: 8px;
+	width: 47px;
+	transform: rotate(-45deg);
+	animation: icon-line-long 0.75s;
+  }
+  .success-checkmark .check-icon .icon-circle {
+	top: -4px;
+	left: -4px;
+	z-index: 10;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	position: absolute;
+	box-sizing: content-box;
+	border: 4px solid rgba(76, 175, 80, 0.5);
+  }
+  .success-checkmark .check-icon .icon-fix {
+	top: 8px;
+	width: 5px;
+	left: 26px;
+	z-index: 1;
+	height: 85px;
+	position: absolute;
+	transform: rotate(-45deg);
+	background-color: #ffffff;
+  }
+  
+  @keyframes rotate-circle {
+	0% {
+	  transform: rotate(-45deg);
+	}
+	5% {
+	  transform: rotate(-45deg);
+	}
+	12% {
+	  transform: rotate(-405deg);
+	}
+	100% {
+	  transform: rotate(-405deg);
+	}
+  }
+  @keyframes icon-line-tip {
+	0% {
+	  width: 0;
+	  left: 1px;
+	  top: 19px;
+	}
+	54% {
+	  width: 0;
+	  left: 1px;
+	  top: 19px;
+	}
+	70% {
+	  width: 50px;
+	  left: -8px;
+	  top: 37px;
+	}
+	84% {
+	  width: 17px;
+	  left: 21px;
+	  top: 48px;
+	}
+	100% {
+	  width: 25px;
+	  left: 14px;
+	  top: 45px;
+	}
+  }
+  @keyframes icon-line-long {
+	0% {
+	  width: 0;
+	  right: 46px;
+	  top: 54px;
+	}
+	65% {
+	  width: 0;
+	  right: 46px;
+	  top: 54px;
+	}
+	84% {
+	  width: 55px;
+	  right: 0px;
+	  top: 35px;
+	}
+	100% {
+	  width: 47px;
+	  right: 8px;
+	  top: 38px;
+	}
+  }
+/* ==========================嚙踝蕭��嚙踝蕭���蕭嚙�========================= */
+/* hr{
+	border: 100px;
+} */
+.div4{
+	border: 3px solid rgb(113, 113, 113);
+	/* background-color: rgb(226, 226, 226); */
+	height: 165px;
+	width: 900px;
+	position: absolute;
+	left: 100px;	
+	top: 200px;
+	/* padding: 5px; */
+}
+.div5>.act-id1,.div5>.act-id2,.div6>.act-name1,.div6>.act-name2,.div7>.act-price1,.div7>.act-price2,.div8>.act-date1,.div8>.act-date2{
+	display: inline;
+	font-size: 20px;
+}
+.div5,.div6,.div7,.div8{
+	/* border: 1px solid palegreen; */
+	margin: 5px 50px;
+	
+}
+.front-page{
+	background-color: rgb(113, 113, 113);
+	color: white;
+	font-size: 40px;
+	padding: 10px 80px;
+	position: absolute;
+	left: 410px;
+	top: 420px;
+}
+
+/* <!-- =======================footer嚙踝蕭========================== -->	 */
+footer {
+	height: 80px;
+	width: 1370px;
+	background-color: black;
+	margin-top: 20px;
+	position: relative;
+	top: 20px;
+	left: -10px;
+}
+
+footer p {
+	width: 100vw;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 2px;
+	position: relative;
+	top: 20px;
+}
+
+.textinfo {
+	width: 70px;
+	position: fixed;
+	bottom: 30px;
+	right: 80px;
+	margin-bottom: 60px;
+}
+
+.textinfo img {
+	width: 70px;
+	height: 70px;
+}
+/* =====================嚙踝蕭��鈭嚙�======================= */
+.chat {
+	width: 350px;
+	position: fixed;
+	bottom: 30px;
+	right: 200px;
+	margin-bottom: 60px;
+	/* background-color: red; */
+	height: 350px;
+	display:none;
+}
+
+.panel {
+	float: right;
+	/* border-radius: 5px; */
+	width: 50%;
+}
+
+.message-area {
+	height: 80%;
+	resize: none;
+	box-sizing: border-box;
+	overflow: auto;
+	background-color: #ffffff;
+	width: 350px;
+	position: absolute;
+	top: 30px;
+	bottom: 77px;
+	border-left: 2px solid #454646;
+	border-right: 2px solid #454646;
+	border-top: 2px solid #454646;
+}
+
+.input-area {
+	background: #E9EDED;
+	/* box-shadow: inset 0 0 10px #00568c; */
+	position: absolute;
+	width: 350px;
+	/* height: 50px; */
+	position: absolute;
+	bottom: -36px;
+	height: 77px;
+	border-left: 2px solid #454646;
+	border-right: 2px solid #454646;
+	border-bottom: 2px solid #454646;
+	border-top: 2px solid #454646;
+	border-radius: 0px 0px 20px 20px;
+}
+
+.input-area input {
+	margin: 0.5em 0em 0.5em 0.5em;
+}
+
+.text-field {
+	border: 1px solid grey;
+	padding: 0.2em;
+	/* box-shadow: 0 0 5px #000000; */
+}
+
+h1 {
+	font-size: 1.5em;
+	padding: 5px;
+	margin: 5px;
+}
+
+#message {
+	min-width: 277px;
+	max-width: 277px;
+	border: 2px solid #454646;
+	height: 55px;
+	position: absolute;
+	bottom: 0px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.statusOutput {
+	background-color: #E9EDED;
+	text-align: center;
+	color: #ffffff;
+	border-top: 2px solid #454646;
+	border-right: 2px solid #454646;
+	border-left: 2px solid #454646;
+	/* padding: 0.2em; */
+	/* box-shadow: 0 0 5px #000000; */
+	width: 100%;
+	/* margin-top: 10%; */
+	margin: 0;
+	height: 37px;
+	position: absolute;
+	top: -6px;
+	/* z-index: 1; */
+	color: #454646;
+	font-size: 25px;
+	padding-bottom: 10px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+#row {
+	float: left;
+	width: 50%;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 5%;
+	margin-bottom: 5px;
+	background-color: #ffffff;
+}
+
+.chat ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.chat ul li {
+	display: inline-block;
+	clear: both;
+	padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 2px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.friend {
+	background: #eee;
+	float: left;
+}
+
+.friend a {
+	color:darkgray;
+	font-size: 18px;
+}
+.friend a:hover{
+	color: #454646;
+}
+
+.me {
+	float: right;
+	background: #0084ff;
+	color: #fff;
+}
+
+.friend+.me {
+	border-bottom-right-radius: 5px;
+}
+
+.me+.me {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.me:last-of-type {
+	border-bottom-right-radius: 30px;
+}
+
+#sendMessage {
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+	height: 55px;
+	background-color: #E9EDED;
+	border: 2px solid #454646;
+	border-radius: 10px;
+}
+
+#sendMessage:hover {
+	background-color: #D4D9DC;
+}
+
+/* ���蕭蹓選蕭嚙質謍減�謍梧蕭�嚙踝蕭
+#connect{
+	position: absolute;
+	bottom: 0px;
+}
+#disconnect{
+	position: absolute;
+	bottom: 0px;
+}
+ /* ���蕭蹓選蕭嚙質謍減�謍梧蕭�嚙踝蕭 */

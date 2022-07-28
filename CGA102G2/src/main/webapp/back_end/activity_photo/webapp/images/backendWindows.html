@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>飯店管理後台頁面</title>
+
+    <style>
+        /* ========= header 區域 ========= */
+        body {
+            padding: 0px;
+            margin: 0px;
+            width: 1300px;
+            overflow-x: hidden;
+        }
+
+        * {
+            box-sizing: content-box;
+        }
+
+        .nav {
+            display: inline-block;
+            height: 95px;
+            text-align: end;
+
+        }
+
+        .logo img {
+            width: 350px;
+            height: 80px;
+        }
+
+        .logo {
+            padding: 10px;
+            top: 0px;
+            width: 1300px;
+        }
+
+        .logo_a {
+            float: left;
+        }
+
+        .nav-top-sighout {
+            border-radius: 20px;
+            border: 1px;
+            background-color: #757575;
+            font-size: 20px;
+            padding: 5px 22px 5px 22px;
+            color: #ffffff;
+            position: relative;
+            top: -5px;
+            text-align: center;
+            right: 70px;
+            margin-right: 50px;
+            text-decoration: none;
+        }
+
+        .nav-top-sighout:hover {
+            background-color: #ffffff;
+            border: #757575 3px solid;
+            color: #757575;
+        }
+
+        .line {
+            height: 5px;
+            width: 100%;
+            margin-top: 20px;
+            background-color: #757575;
+        }
+
+        .nav-top-a {
+            display: inline-block;
+            height: 45px;
+            width: 45px;
+            position: relative;
+            margin-right: 100px;
+            top: 10px;
+        }
+
+        .nav-top-chat {
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        /* ========= aside 區域 ========= */
+        aside.aside {
+            background-color: rgb(179, 188, 190);
+            width: 265px;
+            left: 0;
+            top: 0px;
+            height: 100vh;
+            padding: 20px 0;
+        }
+
+        aside.aside nav.nav ul.nav_list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-top: 10px;
+            height: 350px;
+            text-align: center;
+        }
+        
+
+
+        aside.aside nav.nav ul.nav_list>li a {
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            padding: 5px 0px;
+            width: 300px;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+
+
+
+        aside.aside nav.nav div {
+            display: inline-block;
+            text-align: center;
+        }
+
+        aside.aside nav.nav div img {
+            display: inline;
+            position: relative;
+            height: 13%;
+            width: 13%;
+            top: 8px;
+        }
+
+
+        aside.aside nav.nav div p {
+            display: inline-block;
+            position: relative;
+            text-decoration: none;
+            text-align: center;
+            padding: 5px 0px;
+            width: 100px;
+            height: 50px;
+            top: 5px;
+            color: #757575;
+            font-size: 25px;
+            font-family: 'Noto Sans TC', sans-serif;
+            margin: 0px;
+        }
+
+
+
+       
+
+        aside.aside nav.nav ul.nav_list>img {
+            height: 6%;
+            width:6%;
+            margin-left: 38px;
+        }
+
+        aside.aside nav.nav ul.nav_list li {
+            position: relative;
+            display: inline-block;
+            height: 40px;
+            width: 160px;
+            bottom: 10px;
+            margin-top: 10px;
+        }
+
+        aside.aside nav.nav ul.nav_list li a {
+            display: inline-block;
+            color: #757575;
+            font-size: 20px;
+            font-family: 'Noto Sans TC', sans-serif;
+            width: 160px;
+        }
+
+        aside.aside nav.nav ul.nav_list li a:hover {
+            font-size: 23px;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+
+            <div class="logo">
+
+                <a href="" class="logo_a">
+                    <img src="logo.png" alt="">
+                </a>
+
+                <a class="nav-top-a" href=""><img class="nav-top-chat" src="chat.png" alt=""></a>
+
+                <a href="" class="nav-top-sighout">登出</a>
+            </div>
+            <div class="line"></div>
+
+        </nav>
+    </header>
+
+    <aside class="aside">
+        <nav class="nav">
+            <div>
+                <img src="./group.png">
+                <p>林家玄</p>
+                <hr style="background-color:#757575 ;height:2px;">
+            </div>
+            <ul class="nav_list">
+                <img src="./group (1).png">
+                <li><a href="#">員工管理</a></li>
+                <img src="./social-group.png">
+                <li><a href="#">會員管理</a></li>
+                <img src="./talking.png">
+                <li><a href="#">訊息管理</a></li>
+                <img src="./support.png">
+                <li><a href="#">客服管理</a></li>
+                <img src="./bed.png">
+                <li><a href="#">房務管理</a></li>
+                <img src="./camping.png">
+                <li><a href="#">活動管理</a></li>
+                <img src="./gift.png">
+                <li><a href="#">伴手禮管理</a></li>
+                <img src="./video-marketing.png">
+                <li><a href="#">媒體消息管理</a></li>
+            </ul>
+        </nav>
+
+    </aside>
+
+</body>
+
+</html>

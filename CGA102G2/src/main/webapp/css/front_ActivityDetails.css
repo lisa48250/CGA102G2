@@ -1,0 +1,780 @@
+@charset "BIG5";
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body {
+	height: 100%;
+	margin: 0;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "cwTeXYen", sans-serif;
+}
+
+.nav-ul-bot {
+	display: inline;
+}
+
+.nav-ul-top {
+	display: inline;
+}
+
+.nav-li {
+	display: inline-block;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav-left-div p {
+	width: 80px;
+	color: black;
+	font-size: 20px;
+	display: block;
+	width: 100%;
+	border-right: 2px solid black;
+	padding-right: 12px;
+	color: #7D7D7D;
+	border-color: #7D7D7D;
+}
+
+.nav-left-div p:hover {
+	border-top: solid 3px black;
+	margin-top: 3px;
+	border-color: #7D7D7D;
+}
+
+header {
+	height: 190px;
+}
+
+hr {
+	height: 3px;
+	background-color: gray;
+}
+
+nav {
+	height: 200px;
+	width: 1263px;
+}
+
+.nav-top-a {
+	display: block;
+	position: absolute;
+	top: 40px;
+	left: 1150px;
+	width: 50px;
+}
+
+.nav-logo {
+	width: 400px;
+	height: 94px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.nav-left-div {
+	margin-top: 10px;
+}
+
+.nav-top-div {
+	display: inline;
+	width: 50px;
+	position: relative;
+	top: -5px;
+	right: 120px;
+}
+
+.nav-top-img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 40px;
+	left: 900px;
+}
+
+.nav-top-img-1 {
+	width: 50px;
+	height: 50px;
+}
+
+.nav-top-top {
+	display: inline;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1206px;
+
+}
+
+.nav-top {
+	display: inline;
+	position: relative;
+	top: 0px;
+	right: -280px;
+
+}
+
+.text {
+	border: 2px;
+	border-radius: 20px;
+	border: 1px black;
+	background-color: #757575;
+	font-size: 20px;
+	padding: 8px 20px 8px 20px;
+	color: white;
+	width: 170px;
+	position: absolute;
+	top: 45px;
+	left: 967px;
+	text-align: center;
+}
+
+.nav-top-bot {
+	margin-left: 100px;
+	margin-top: 0px;
+	position: absolute;
+	top: 140px;
+	height: 50px;
+}
+
+.weather-div {
+	display: inline;
+	position: relative;
+	top: 20px;
+	left: 475px;
+}
+
+.weather-tr {
+	position: absolute;
+	left: 95px;
+	top: 0px;
+	width: 330px;
+}
+
+.weather-tr-1 {
+	position: absolute;
+	left: 95px;
+	top: 20px;
+}
+
+.td {
+	width: 42px;
+	padding-right: 5px;
+}
+
+.th {
+	width: 42px;
+	padding-right: 7px;
+}
+
+.icon-img {
+	width: 30px;
+	margin-right: 9px;
+}
+
+.weather-div {
+	visibility: hidden;
+}
+
+.icon {
+	visibility: hidden;
+	position: absolute;
+	left: 575px;
+	top: 70px;
+	width: 320px;
+}
+/* ======================== * main嚙踝蕭嚙踝蕭 * ====================== */
+
+main {
+    /* border: 1px solid #3475e6; */
+    position: relative;
+    width: 1206px;
+
+}
+.div1{
+    /* border: 2px solid rgb(187, 187, 39); */
+    margin-top: 7px;
+    margin-left: 20px;
+    width: 1228px;
+    height: 300px;
+}
+.head-img {
+    margin-top: 0px;
+    width: 1170px;
+    position: absolute;
+    left: 45px;
+    height: 293px;
+    width: 1170px;
+}
+
+div.slide-down {
+    width:100%;
+    overflow:hidden;
+    position: absolute;
+    left: 400px;
+    top: 103px;
+
+  }
+  div.slide-down p {
+    animation: 1.5s slide-down;
+    margin-top:0%;
+    font-size: 80px;
+    color: #fbf9f9;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Tai Heritage Pro', serif;
+    
+    
+  }
+  
+  @keyframes slide-down {
+    from {
+      margin-top: -8%;
+      height: 300%; 
+    }
+    to {
+      margin-top: 0%;
+      height: 100%;
+    }
+  }
+
+.maindiv{
+    border: 1px solid transparent;
+    height: 1388px;
+    /* margin-left: 50px; */
+}
+
+.sticky{
+    /* background-color: #ebebeb; */
+    border: 2px solid rgb
+    (122, 122, 122);
+    width: 400px;
+    height: 530px;
+    position: sticky;
+    margin-top: 10px;
+    margin-left: 815px;
+    top: 30px;
+   
+}
+
+.p1,.p2,.p3{
+    /* border: 1px solid palevioletred; */
+    display: inline;
+    
+}
+.p1{
+    position: relative;
+    bottom: -10px;
+    left: 40px;
+    top: -10px;
+    font-size: 40px;
+}
+.p2{
+    font-size: 50px;
+    position: relative;
+    bottom: -17px;
+    left: 20px;
+}
+/* .p3{
+    font-size: 30px;
+    position: relative;
+    bottom: -15px;
+    left: 20px;
+} */
+.div2{
+    margin-left: 40px;
+    position: absolute;
+    top: 10px;
+    
+}
+.hr1{
+ position: relative;
+ top: 20px;
+}
+/* .div3{
+    background-color: #ddd;
+    position: absolute;
+    top: 100px;
+    height: 300px;
+    width: px;
+    /* margin-left: 8px;
+    margin-top: 20px; */
+
+.date{
+    /* border: 2px solid palegreen; */
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 30px;
+}
+.date2{
+    font-size: 15px;
+    height: 30px;
+    width: 300px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    font-size: 20px;
+}
+.memo{
+    /* border: 1px solid blue;  */
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    font-size: 30px;
+}
+.memo2{
+    font-size: 20px;
+    height: 100px;
+    width: 300px;
+}
+.p4,.number,.p6{
+    /* border: 1px solid blue; */
+    position: absolute;
+    display: inline;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.div4{
+    /* border: 1px solid goldenrod; */
+    width: 360px;
+    height: 150px;
+    position: absolute;
+    top: 380px;
+    left: 40px;
+}
+.div4hr{
+    margin: 20px 0px;
+    position: relative;
+    top: -20px;
+}
+.p4{
+    font-size: 35px;
+    position: absolute;
+    left: 20px;
+}
+.number{
+    font-size: 30px;
+    height: 30px;
+    position: absolute;
+    left: 180px;
+    display: inline-block;
+    width:80px;
+    text-align:center;
+}
+.p6{
+    /* border: 1px solid rebeccapurple; */
+    font-size: 35px;
+    position: absolute;
+    left: 280px;
+}
+
+#form{
+    /* border: 1px solid saddlebrown; */
+    height: 1070px;
+    /* display: hidden; */
+    /* display: hidden; */
+}
+
+.button1{
+/*         background-color: #49494a; */
+    	background-color: rgb(181, 181, 181);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-size: 30px;
+        width: 360px;
+        position: absolute;
+        top: 68px;
+        left: -2px;
+}
+.button1:hover {
+/*     background-color: #c0c0c0; */
+      background-color: #49494a;
+    /* color: #49494a; */
+  }
+.div5{
+    /* border: 2px solid rgb(69, 127, 146); */
+    width: 730px;
+    height: 1100px;
+    position: relative;
+    top: -1060px;
+    right: -43px;
+    
+}
+
+.div1hr{
+    
+}
+.href{
+    /* border: 1px solid black; */
+    font-size: 22px;
+    height: 50px;
+    width: 250px;
+    position: relative;
+    top: -1070px;
+    left: 50px;
+}
+.href2,.href3,.href4{
+    display: inline-block;
+
+}
+
+.href2{
+    position: absolute;
+    top: 10px;
+    color: black;
+}
+.href3{
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    color: black;
+}
+.href4{
+    position: absolute;
+    top: -10px;
+    left: 140px;
+}
+
+.div6{
+    /* border: 4px solid purple; */
+    /* height: 30px;
+    margin-left: 20px;
+    height: 10px;
+    position: relative;
+    top: 10px; */
+    /* margin-bottom: 60px; */
+}
+.img0, .p7{
+    display: inline;
+}
+
+.img0 {
+    height: 86px;
+    width: 15px;
+    margin-top: 0px;
+    position: relative;
+    top: 10px;
+}
+.p7 {
+    /* border: 2px solid plum; */
+    font-size: 50px;
+    position: relative;
+    top: -30px;
+}
+
+
+.p8,.p9{
+    /* border: 1px solid black; */
+    font-size: 20px;
+    display: inline-block;
+    margin-left:0px ;
+    position: absolute;
+    height: 30px;
+}
+.p8 {
+    width: 90px;
+    position: absolute;
+    left: 26px;
+    font-size: 22px;
+    top: 50px;
+}
+.p9 {
+    width: 230px;
+    position: absolute;
+    left: 129px;
+    top: 54PX;
+}
+
+.p10{
+    /* border: 1px solid rgb(39, 149, 86); */
+    font-size: 20px;
+    margin: 15px 32px;
+    width: 670px;
+    height: 95px;
+    display: flex; 
+    align-items: center
+}
+.img1{
+    width: 670px;
+    height: 357px;
+    margin: 10px 30px;
+}
+.p11{
+    /* border: 1px solid blue; */
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    width: 150px;
+    text-align: center;
+    margin: 30px 300px;
+    position: absolute;
+    left: -15px;
+    top: 588px;
+}
+.phr{
+    position:absolute;
+    top: 621px;
+    width:700px;
+    margin: 10px ;
+    }
+
+.p11-1{
+    /* border: 1px solid black; */
+    font-size: 20px;
+    position: absolute;
+    left: 30px;
+    width: 680px;
+    top: 626px;
+}
+.p12{
+    background-color: rgb(181, 181, 181);
+    position: absolute;
+    top: 830px;
+    width: 700px;
+    margin:10px;
+    padding: 20px;
+    font-size: 15px;
+    color: #fbf9f9;
+    height: 150px;
+    display: flex; 
+    align-items: center
+}
+.p12>span{
+    font-size: 25px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 20px;
+}
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+/* ======== * footer嚙踝蕭嚙踝蕭 * ======== */
+
+footer {
+    height: 80px;
+    width: 1362px;
+    background-color: black;
+    margin-top: 0px;
+    /* position: relative;
+    top: 1500px; */
+}
+
+footer p {
+    width: 100vw;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 2px;
+    position: relative;
+    top: 20px;
+    margin-bottom: 0px;
+}
+
+.textinfo {
+	width: 70px;
+	position: fixed;
+	bottom: 30px;
+	right: 80px;
+	margin-bottom: 60px;
+}
+
+.textinfo img {
+	width: 70px;
+	height: 70px;
+}
+/* =====================嚙踝蕭��鈭��堆蕭======================= */
+.chat {
+	width: 350px;
+	position: fixed;
+	bottom: 30px;
+	right: 200px;
+	margin-bottom: 60px;
+	/* background-color: red; */
+	height: 350px;
+	display:none;
+}
+
+.panel {
+	float: right;
+	/* border-radius: 5px; */
+	width: 50%;
+}
+
+.message-area {
+	height: 80%;
+	resize: none;
+	box-sizing: border-box;
+	overflow: auto;
+	background-color: #ffffff;
+	width: 350px;
+	position: absolute;
+	top: 30px;
+	bottom: 77px;
+	border-left: 2px solid #454646;
+	border-right: 2px solid #454646;
+	border-top: 2px solid #454646;
+}
+
+.input-area {
+	background: #E9EDED;
+	/* box-shadow: inset 0 0 10px #00568c; */
+	position: absolute;
+	width: 350px;
+	/* height: 50px; */
+	position: absolute;
+	bottom: -36px;
+	height: 77px;
+	border-left: 2px solid #454646;
+	border-right: 2px solid #454646;
+	border-bottom: 2px solid #454646;
+	border-top: 2px solid #454646;
+	border-radius: 0px 0px 20px 20px;
+}
+
+.input-area input {
+	margin: 0.5em 0em 0.5em 0.5em;
+}
+
+.text-field {
+	border: 1px solid grey;
+	padding: 0.2em;
+	/* box-shadow: 0 0 5px #000000; */
+}
+
+h1 {
+	font-size: 1.5em;
+	padding: 5px;
+	margin: 5px;
+}
+
+#message {
+	min-width: 277px;
+	max-width: 277px;
+	border: 2px solid #454646;
+	height: 55px;
+	position: absolute;
+	bottom: 0px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.statusOutput {
+	background-color: #E9EDED;
+	text-align: center;
+	color: #ffffff;
+	border-top: 2px solid #454646;
+	border-right: 2px solid #454646;
+	border-left: 2px solid #454646;
+	/* padding: 0.2em; */
+	/* box-shadow: 0 0 5px #000000; */
+	width: 100%;
+	/* margin-top: 10%; */
+	margin: 0;
+	height: 37px;
+	position: absolute;
+	top: -6px;
+	/* z-index: 1; */
+	color: #454646;
+	font-size: 25px;
+	padding-bottom: 10px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+#row {
+	float: left;
+	width: 50%;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 5%;
+	margin-bottom: 5px;
+	background-color: #ffffff;
+}
+
+.chat ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.chat ul li {
+	display: inline-block;
+	clear: both;
+	padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 2px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.friend {
+	background: #eee;
+	float: left;
+}
+
+.friend a {
+	color:darkgray;
+	font-size: 18px;
+}
+.friend a:hover{
+	color: #454646;
+}
+
+.me {
+	float: right;
+	background: #0084ff;
+	color: #fff;
+}
+
+.friend+.me {
+	border-bottom-right-radius: 5px;
+}
+
+.me+.me {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.me:last-of-type {
+	border-bottom-right-radius: 30px;
+}
+
+#sendMessage {
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+	height: 55px;
+	background-color: #E9EDED;
+	border: 2px solid #454646;
+	border-radius: 10px;
+}
+
+#sendMessage:hover {
+	background-color: #D4D9DC;
+}
+
+/* ����嚙踐撚嚙踝蕭�綜契謆��綜垮嚙踝�改蕭嚙�
+#connect{
+	position: absolute;
+	bottom: 0px;
+}
+#disconnect{
+	position: absolute;
+	bottom: 0px;
+}

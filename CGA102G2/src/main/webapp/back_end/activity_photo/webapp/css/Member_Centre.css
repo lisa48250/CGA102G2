@@ -1,0 +1,106 @@
+aside {
+    display: flex;
+    position: absolute;
+    width: 240px;
+    top: 350px; /*隤踵���擃���*/
+    margin-left: -40px;
+    min-height: 480px;
+    /* border: 1px solid rgb(117, 166, 201); */
+    margin-top: 120px;  
+}
+.p1{
+  text-align: center;
+  color: white;
+}
+
+.p1div{
+  border: 3px solid rgb(180, 178, 178);;
+  height: 80px;
+  width: 200px;
+  font-size: 21px;
+  border-bottom: 1px dashed white;
+  border-top: 1px dashed white;
+  
+}
+
+.p2{
+  text-align: center;
+  color: white;
+}
+.p2div{
+  border: 3px solid rgb(180, 178, 178);
+  height: 80px;
+  width: 200px;
+  font-size: 21px;
+  border-bottom: 1px dashed white;
+
+}
+
+.p5{
+  text-align: center;
+  color: white;
+}
+.p5div{
+  border: 3px solid rgb(180, 178, 178);
+  height: 80px;
+  width: 200px;
+  font-size: 21px;
+  border-bottom: 1px dashed white;
+}
+
+.p6{
+  text-align: center;
+  color: white;
+}
+.p6div{
+  border: 3px solid rgb(180, 178, 178);
+  height: 80px;
+  width: 200px;
+  font-size: 21px;
+  border-bottom: 1px dashed white;
+}
+
+.p7{
+  text-align: center;
+  color: white;
+}
+.p7div{
+  border: 3px solid rgb(180, 178, 178);
+  height: 80px;
+  width: 200px;
+  font-size: 21px;
+  border-bottom: 1px dashed white;
+}
+
+.p8{
+  text-align: center;
+  color: white;
+}
+.p8div{
+  border: 3px solid rgb(180, 178, 178);;
+  height: 80px;
+  width: 200px;
+  font-size: 21px;
+  border-bottom: 1px dashed white;
+}
+
+aside>ul>li{
+  background-color:rgb(180, 178, 178); ;
+}
+aside>ul>li:hover {
+  background-color: #9b9a9a; /*滑鼠點選會員資料時的顏色*/
+  color: white;
+  cursor: pointer;
+}
+
+.name{
+  position: relative;
+  margin-left: 10px;
+  margin-top: 150px;
+  font-size: 25px;
+  
+}
+
+
+
+

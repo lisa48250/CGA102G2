@@ -1,0 +1,746 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+
+/* ======== * header��������蕭 * ======== */
+body {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  overflow-x: hidden;
+
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "cwTeXYen", sans-serif;
+}
+
+.nav-ul-bot {
+  display: inline;
+}
+
+.nav-ul-top {
+  display: inline;
+}
+
+.nav-li {
+  display: inline-block;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-left-div p {
+  width: 80px;
+  color: black;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  border-right: 2px solid black;
+  padding-right: 12px;
+  color: #7D7D7D;
+  border-color: #7D7D7D;
+}
+
+.nav-left-div p:hover {
+  border-top: solid 3px black;
+  margin-top: 3px;
+  border-color: #7D7D7D;
+}
+
+header {
+  height: 90px;
+}
+
+hr {
+  height: 3px;
+  background-color: gray;
+}
+
+nav {
+  height: 200px;
+  width: 1263px;
+}
+
+.nav-top-a {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 1150px;
+  width: 50px;
+}
+
+.nav-logo {
+  width: 400px;
+  height: 94px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.nav-left-div {
+  margin-top: 10px;
+}
+
+.nav-top-div {
+  display: inline;
+  width: 50px;
+  position: relative;
+  top: -5px;
+  right: 120px;
+}
+
+.nav-top-img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 40px;
+  left: 900px;
+}
+
+.nav-top-img-1 {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-top-top {
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1206px;
+
+}
+
+.nav-top {
+  display: inline;
+  position: relative;
+  top: 0px;
+  right: -280px;
+
+}
+
+.text {
+  border: 2px;
+  border-radius: 20px;
+  border: 1px black;
+  background-color: #757575;
+  font-size: 20px;
+  padding: 8px 20px 8px 20px;
+  color: white;
+  width: 170px;
+  position: absolute;
+  top: 45px;
+  left: 967px;
+  text-align: center;
+}
+
+.nav-top-bot {
+  margin-left: 100px;
+  margin-top: 0px;
+  position: absolute;
+  top: 145px;
+  height: 50px;
+}
+
+.weather-div {
+  display: inline;
+  position: relative;
+  top: 20px;
+  left: 475px;
+}
+
+.weather-tr {
+  position: absolute;
+  left: 95px;
+  top: 0px;
+  width: 330px;
+}
+
+.weather-tr-1 {
+  position: absolute;
+  left: 95px;
+  top: 20px;
+}
+
+.td {
+  width: 42px;
+  padding-right: 5px;
+}
+
+.th {
+  width: 42px;
+  padding-right: 7px;
+}
+
+.icon-img {
+  width: 30px;
+  margin-right: 9px;
+}
+
+.weather-div {
+  visibility: hidden;
+}
+
+.icon {
+  visibility: hidden;
+  position: absolute;
+  left: 575px;
+  top: 70px;
+  width: 320px;
+}
+
+/* main */
+main {
+   top: 96px;
+  position: relative;
+  height: 1px;
+  width: 500px;
+}
+.confirm-words{
+  /* border: 1px solid red; */
+  position: absolute;
+  font-size: 30px;
+  top: 114px;
+  left: 330px;
+  width: 500px;
+}
+
+.display-area {
+  border: 0.5px solid #7D7D7D;
+  /* border-bottom: #fff solid ; */
+  border-radius: 10px;
+  position: relative;
+  font-size: 24px;
+  display: grid;
+  padding-left: 40px;
+  padding-top: 30px;
+  line-height: 14px;
+  margin-left: 50px;
+  top: 92px;
+  left: 80px;
+  height: 450px;
+  width: 600px;
+}
+.display-area>span{
+  padding: 5px;
+}
+
+.display-data {
+  border-bottom: 0.1px #7D7D7D solid;
+  font-size: 20px;
+  position: relative;
+  width: 200px;
+  left: 165px;
+  top: -18px;
+
+}
+
+.credit-card {
+  /* border: 1px solid blue; */
+  /* position: relative;
+  width: 400px;
+  height: 250px;
+  margin-left: 100px; */
+}
+
+.client-input-area {
+  /* border: 1px solid red; */
+  /* position: relative;
+  width: 600px;
+  height: 250px;
+  right: -600px;
+  bottom: 250px;
+  text-align: left;
+  display: grid; */
+}
+
+/* 嚙踐�蕭嚙踐漣嚙踝�嚙踝蕭嚙� */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  outline: none;
+  border: none;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+}
+
+.container {
+  
+  position:relative;
+  font-family: 'Poppins', sans-serif;
+  flex-flow: column;
+  font-size: 23px;
+  left: 500px;
+  bottom: 318px;
+  top:-419px;
+  height:10px;
+}
+
+.card-container{
+  /* border: 1px solid black; */
+  position: absolute;
+  z-index: 1;
+  margin-left: 25px;
+  margin-top: -90px;
+}
+
+
+.container form {
+  /* border: 1px solid red; */
+  background: #fff;
+  position: relative;
+  left: 260px;
+  top: -20px;
+  margin-top: 170px;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .8);
+  padding: 20px;
+  width: 400px;
+  padding-top: 100px;
+  padding: 10px 20px 20px;
+}
+
+.container form .inputBox {
+  margin-top: 20px;
+}
+
+.container form .inputBox span {
+  display: block;
+  color: #999;
+  padding-bottom: 5px;
+}
+
+.container form .inputBox input,
+.container form .inputBox select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, .3);
+  color: #444;
+}
+
+.container form .flexbox {
+  display: flex;
+  gap: 15px;
+}
+
+.container form .flexbox .inputBox {
+  flex: 1 1 150px;
+  position: relative;
+    top: -5px;
+}
+
+.container form .submit-btn {
+  width: 100%;
+  background: linear-gradient(45deg, #999, #444);
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .2s linear;
+}
+
+.container form .submit-btn:hover {
+  letter-spacing: 2px;
+  opacity: .8;
+}
+
+.container .card-container {
+  margin-bottom: -150px;
+  position: relative;
+  height: 250px;
+  width: 400px;
+  left: 150px;
+  top: 70px
+}
+
+.container .card-container #front {
+  position: absolute;
+  height: 65%;
+  width: 65%;
+  background: linear-gradient(45deg, #999, #444);
+  border-radius: 5px;
+  backface-visibility: hidden;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+  padding: 20px;
+  transform: perspective(1000px) rotateY(0deg);
+  transition: transform .4s ease-out;
+  position: absolute;
+  left: 150px;
+  top: 30px;
+}
+.display-area>div>div>input{
+  /* border: 1px solid black; */
+  display: inline-block;
+  width: 300px;
+  height: 20px;
+  margin: 10px;
+  font-size: 20px;
+}
+.display-area{
+  display: inline-block;
+}
+.container .card-container #back {
+/*   position: absolute; */
+/*   top: 0; */
+/*   left: 0; */
+/*   height: 100%; */
+/*   width: 100%; */
+  background: linear-gradient(45deg, #999, #444);
+  border-radius: 5px;
+  padding: 20px 0;
+  text-align: right;
+  backface-visibility: hidden;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+/*   transform: perspective(1000px) rotateY(180deg); */
+  transition: transform .4s ease-out;
+  
+  transform: perspective(1000px) rotateY(180deg);
+    height: 65%;
+    width: 65%;
+    position: absolute;
+    left: 150px;
+    top: 30px;
+}
+
+.container .card-container #front .image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.container .card-container #front .image img {
+  height: 50px;
+}
+
+.container .card-container #front .card-number-box {
+  padding: 30px 0;
+  font-size: 22px;
+  color: #fff;
+}
+
+.container .card-container #front .flexbox {
+  display: flex;
+}
+
+.container .card-container #front .flexbox .box:nth-child(1) {
+  margin-right: auto;
+}
+
+.container .card-container #front .flexbox .box {
+  font-size: 15px;
+  color: #fff;
+}
+
+
+
+.container .card-container #back .stripe {
+  background: #000;
+  width: 100%;
+  margin: 10px 0;
+  height: 50px;
+}
+
+.container .card-container #back .box {
+  padding: 0 20px;
+}
+
+.container .card-container #back .box span {
+  color: #fff;
+  font-size: 15px;
+}
+
+.container .card-container #back .box #cvv-box {
+	height: 32px;
+    padding: 10px;
+    margin-top: 5px;
+    color: #333;
+    background: #fff;
+    border-radius: 5px;
+    width: 85%;
+    position: relative;
+    top: -15px;
+}
+
+.container .card-container #back .box img {
+	margin-top: 30px;
+    height: 20px;
+    position: relative;
+    top: -43px;
+    left: 5px;
+}
+
+#cvv_input{
+	    position: relative;
+    top: -5px;
+    height: 37.5px;
+}
+
+/* footer */
+
+footer {
+  height: 80px;
+  width: 1362px;
+  background-color: black;
+  margin-top: 80px;
+  position: relative;
+  bottom: -580px;
+}
+
+footer p {
+  width: 100vw;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 2px;
+  position: relative;
+  top: 20px;
+  margin-bottom: 0px;
+}
+
+/* 嚙踐�����蕭 */
+.textinfo {
+	width: 70px;
+	position: fixed;
+	bottom: 30px;
+	right: 80px;
+	margin-bottom: 60px;
+}
+
+.textinfo img {
+	width: 70px;
+	height: 70px;
+}
+
+
+
+/* Chrome, Safari, Edge, Opera */
+#cvv-input::-webkit-outer-spin-button,
+#cvv-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  height: 38px;
+}
+
+/* Firefox */
+#cvv-input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#card-number-input::-webkit-outer-spin-button,
+#card-number-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  height: 38px;
+}
+
+/* Firefox */
+#card-number-input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#cvv-input[type=number] {
+	position: relative;
+    top: -4px;
+    height: 37px;
+}
+/* =====================嚙踝蕭謕蕭豲���嚙踝�蕭嚙踝��蕭嚙踐�======================= */
+.chat {
+	width: 350px;
+	position: fixed;
+	bottom: 30px;
+	right: 200px;
+	margin-bottom: 60px;
+	/* background-color: red; */
+	height: 350px;
+	display:none;
+}
+
+.panel {
+	float: right;
+	/* border-radius: 5px; */
+	width: 50%;
+}
+
+.message-area {
+	height: 80%;
+	resize: none;
+	box-sizing: border-box;
+	overflow: auto;
+	background-color: #ffffff;
+	width: 350px;
+	position: absolute;
+	top: 30px;
+	bottom: 77px;
+	border-left: 2px solid #454646;
+	border-right: 2px solid #454646;
+	border-top: 2px solid #454646;
+}
+
+.input-area {
+	background: #E9EDED;
+	/* box-shadow: inset 0 0 10px #00568c; */
+	position: absolute;
+	width: 350px;
+	/* height: 50px; */
+	position: absolute;
+	bottom: -36px;
+	height: 77px;
+	border-left: 2px solid #454646;
+	border-right: 2px solid #454646;
+	border-bottom: 2px solid #454646;
+	border-top: 2px solid #454646;
+	border-radius: 0px 0px 20px 20px;
+}
+
+.input-area input {
+	margin: 0.5em 0em 0.5em 0.5em;
+}
+
+.text-field {
+	border: 1px solid grey;
+	padding: 0.2em;
+	/* box-shadow: 0 0 5px #000000; */
+}
+
+h1 {
+	font-size: 1.5em;
+	padding: 5px;
+	margin: 5px;
+}
+
+#message {
+	min-width: 277px;
+	max-width: 277px;
+	border: 2px solid #454646;
+	height: 55px;
+	position: absolute;
+	bottom: 0px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.statusOutput {
+	background-color: #E9EDED;
+	text-align: center;
+	color: #ffffff;
+	border-top: 2px solid #454646;
+	border-right: 2px solid #454646;
+	border-left: 2px solid #454646;
+	/* padding: 0.2em; */
+	/* box-shadow: 0 0 5px #000000; */
+	width: 100%;
+	/* margin-top: 10%; */
+	margin: 0;
+	height: 37px;
+	position: absolute;
+	top: -6px;
+	/* z-index: 1; */
+	color: #454646;
+	font-size: 25px;
+	padding-bottom: 10px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+#row {
+	float: left;
+	width: 50%;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 5%;
+	margin-bottom: 5px;
+	background-color: #ffffff;
+}
+
+.chat ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.chat ul li {
+	display: inline-block;
+	clear: both;
+	padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 2px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.friend {
+	background: #eee;
+	float: left;
+}
+
+.friend a {
+	color:darkgray;
+	font-size: 18px;
+}
+.friend a:hover{
+	color: #454646;
+}
+
+.me {
+	float: right;
+	background: #0084ff;
+	color: #fff;
+}
+
+.friend+.me {
+	border-bottom-right-radius: 5px;
+}
+
+.me+.me {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.me:last-of-type {
+	border-bottom-right-radius: 30px;
+}
+
+#sendMessage {
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+	height: 55px;
+	background-color: #E9EDED;
+	border: 2px solid #454646;
+	border-radius: 10px;
+}
+
+#sendMessage:hover {
+	background-color: #D4D9DC;
+}
+
+/* ���鞊船�雓���蹓蕭�嚙踝蕭謕鞊堊鬼嚙踝�蕭謜嚙踝蕭�嚙踐鬼嚙踝�嚙踐���蕭��蕭謕蕭豲
+#connect{
+	position: absolute;
+	bottom: 0px;
+}
+#disconnect{
+	position: absolute;
+	bottom: 0px;
+}
+
+
+#card-number-input::-webkit-outer-spin-button,
+#card-number-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#cvv-input {
+  -moz-appearance: textfield;
+}

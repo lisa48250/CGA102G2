@@ -1,0 +1,52 @@
+/* body {
+    background: #ccc;
+    font-family: 'Roboto', sans-serif;
+} */
+.mytabs {
+    border: 4px solid rgba(0, 0, 0, 0.292);
+    display: flex;
+    flex-wrap: wrap;
+    width: 1050px; 
+    height: 1500px;
+    position: relative;
+    left: 100px;
+    top: -135px;
+    border-radius: 20px;
+    /* /* margin: 50px auto;
+    padding: 25px; */
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    padding: 25px;
+    background: #e2e2e2;
+    font-weight: bold;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    order: 1;
+    display: none;
+}
+.tab{
+    position: relative;
+    top:-200px;
+    right: 50px;
+    left: 0px;
+    height: 1000px;
+    width: 100px;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #fff;
+}

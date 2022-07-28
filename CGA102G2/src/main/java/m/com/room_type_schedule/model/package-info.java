@@ -1,0 +1,1 @@
+package m.com.room_type_schedule.model;

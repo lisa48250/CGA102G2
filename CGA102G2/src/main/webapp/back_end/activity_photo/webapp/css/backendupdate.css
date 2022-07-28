@@ -1,0 +1,357 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 1300px;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: content-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+input{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #5E5E5E;
+}
+.nav {
+    display: inline-block;
+    height: 95px;
+    text-align: end;
+
+}
+header{
+    background-color: white;
+    width: 1320px;
+}
+.logo_a img{
+    width: 350px;
+    height: 80px;
+    position: relative;
+    top: 0px;
+}
+
+.logo {
+    padding: 10px;
+    top: 0px;
+    width: 1300px;
+
+}
+
+.logo_a {
+    float: left;
+}
+
+.nav-top-sighout {
+    border-radius: 20px;
+    border: 1px;
+    background-color: #AAA8AB;
+    font-size: 20px;
+    padding: 5px 22px 5px 22px;
+    color: #ffffff;
+    position: relative;
+    top: -5px;
+    text-align: center;
+    right: 70px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.nav-top-sighout:hover {
+    background-color: #ffffff;
+    border: #757575 3px solid;
+    color: #757575;
+}
+
+.line {
+    height: 5px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #757575;
+}
+
+.nav-top-a {
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    position: relative;
+    margin-right: 100px;
+    top: 10px;
+}
+
+.nav-top-chat {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* ========= aside 區域 ========= */
+aside.aside {
+    background-color: rgb(179, 188, 190);
+    width: 240px;
+    left: 0;
+    top: 0px;
+    height: 100%;
+    padding: 20px 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+aside.aside nav.nav ul.nav_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    height: 665px;
+    text-align: center;
+    background-color: rgb(179, 188, 190);
+
+}
+
+aside.aside nav.nav ul.nav_list .pod:hover>#list {
+    display: block;
+}
+
+aside.aside nav.nav ul.nav_list>li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0px;
+    width: 300px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+aside.aside nav.nav ul.nav_list>li:hover>#list {
+    display: block;
+}
+
+aside.aside nav.nav div {
+    display: inline-block;
+    text-align: center;
+}
+
+aside.aside nav.nav div img {
+    display: inline;
+    position: relative;
+    height: 10%;
+    width: 10%;
+    top: 15px;
+    left: 10px;
+}
+
+aside.aside nav.nav div p {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0px;
+    width: 100px;
+    height: 50px;
+    top: 15px;
+    color: #757575;
+    font-size: 25px;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0px;
+    left: 10px;
+}
+
+aside.aside nav.nav ul.nav_list>li>img {
+    height: 70%;
+    width: 15%;
+    display: inline-block;
+    position: absolute;
+    right: 140px;
+
+}
+
+aside.aside nav.nav ul.nav_list li {
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 160px;
+    bottom: 10px;
+    margin-bottom: 25px;
+    left: 30px;
+}
+
+aside.aside nav.nav ul.nav_list li a {
+    display: inline-block;
+    color: #757575;
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 160px;
+
+}
+
+aside.aside nav.nav ul.nav_list li a:hover {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+main{
+    position: absolute;
+    top: 100px;
+    left: 265px;
+    width: 960px;
+    height: 750px;
+    font-family: "cwTeXYen", sans-serif;
+    border: 2px #5E5E5E solid;
+    border-radius: 30px;
+
+}
+
+.right-1{
+    position: absolute;
+    top: 30px;
+    left: 680px;
+    z-index: 1;
+    color: #5E5E5E;
+}
+.font {
+    position: absolute;
+    top: 0px;
+    color: black;
+    width:960px;
+    height: 100px;
+    background-color: #E2E2E2;
+    border-radius: 30px 30px 0px 0px;
+    z-index: -9999;
+}
+.font-1 {
+    position: relative;
+    left: 20px;
+    width: 300px; 
+    color:#5E5E5E ;
+}
+.font-2{
+    position: relative;
+    top: -66.5px;
+    left: 300px;
+    width: 300px; 
+    color:#5E5E5E ;
+}
+main label{
+    font-size: 25px;
+    color: #5E5E5E;
+}
+.title input{
+    width: 300px;
+    height: 30px;
+}
+.title{
+    position: absolute;
+    left: 30px;
+    top: 130px;
+}
+.date input{
+    width: 303px;
+    height: 35px;
+}
+.date{
+    position: absolute;
+    left: 30px;
+    top: 200px;
+}
+.pic{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
+.pic #pic{
+    width: 300px;
+    height: 20px;
+}
+.pic img{
+    width:300px;
+    height:300px;
+}
+.right-1 span{
+    font-size: 20px;
+    color: #4C4C4C;
+    border: solid 0px ;
+}
+.right-1 a > sapn:hover{
+    color: white;
+}
+#cke_editor1 {
+    width:470px !important;
+    height: 400px !important;
+
+}
+.content{
+    position: absolute;
+    top: 120px;
+    left: 450px;
+}
+
+.submit{
+    position: absolute;
+    left: 730px;
+    top: 575px;
+}
+main li{
+	color:red;
+	font-size:20px;
+	position: relative;
+    left: 20px;
+    top: -10px;
+}
+#list>li {
+    height: 10px;
+    margin-top: 10px;
+}
+
+#list>li>a {
+    font-size: 16px;
+    text-decoration-line: underline;
+}
+#list {
+    display: none;
+    margin-left: -100px;
+}
+.color{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    background-color:#E2E2E2;
+    width: 960px;
+    border-radius: 0px 0px 30px 30px;
+}
+.titlep{
+	font-size:20px;
+	color:red;
+	position:absolute;
+	top:100px;
+	left:90px;
+	width:200px;
+	margin:0px;
+}
+.editor1p{
+	font-size: 20px;
+    color: red;
+    position: absolute;
+    top: 125px;
+    left: 515px;
+    width: 200px;
+    margin: 0px;
+}
+.datep{
+	font-size: 20px;
+    color: red;
+    position: absolute;
+    top: 170px;
+    left: 90px;
+    width: 200px;
+    margin: 0px;
+}
+.picp{
+	font-size: 20px;
+    color: red;
+    position: absolute;
+    top: 250px;
+    left: 90px;
+    width: 200px;
+    margin: 0px;
+}

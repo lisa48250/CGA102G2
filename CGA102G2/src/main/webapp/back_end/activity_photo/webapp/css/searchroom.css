@@ -1,0 +1,919 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body {
+	margin: 0;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "cwTeXYen", sans-serif;
+}
+
+.nav-ul-bot {
+	display: inline;
+
+}
+
+.nav-ul-top {
+	display: inline;
+}
+
+.nav-li {
+	display: inline-block;
+	list-style: none;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.nav-left-div p {
+	width: 80px;
+	color: black;
+	font-size: 20px;
+	display: block;
+	width: 100%;
+	border-right: 2px solid black;
+	padding-right: 12px;
+	color: #7D7D7D;
+	border-color: #7D7D7D;
+	border-top: 3px solid transparent;
+}
+
+.nav-left-div p:hover {
+	border-top: solid 3px black;
+
+	border-color: #7D7D7D;
+}
+
+header {
+	height: 90px;
+}
+
+hr {
+	height: 3px;
+	background-color: gray;
+}
+
+nav {
+	height: 200px;
+	width: 1263px;
+}
+
+.nav-top-a {
+	display: block;
+	position: absolute;
+	top: 40px;
+	left: 1150px;
+	width: 50px;
+}
+
+.nav-logo {
+	width: 400px;
+	height: 94px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.nav-left-div {
+	margin-top: 10px;
+}
+
+.nav-top-div {
+	display: inline;
+	width: 50px;
+	position: relative;
+	top: -5px;
+	right: 120px;
+}
+
+.nav-top-img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 40px;
+	left: 900px;
+}
+
+.nav-top-img-1 {
+	width: 50px;
+	height: 50px;
+}
+
+.nav-top-top {
+	display: inline;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1206px;
+
+}
+
+.nav-top {
+	display: inline;
+	position: relative;
+	top: 0px;
+	right: -280px;
+
+}
+
+.text {
+	border: 2px;
+	border-radius: 20px;
+	border: 1px black;
+	background-color: #757575;
+	font-size: 20px;
+	padding: 8px 20px 8px 20px;
+	color: white;
+	width: 170px;
+	position: absolute;
+	top: 45px;
+	left: 967px;
+	text-align: center;
+}
+
+.nav-top-bot {
+	margin-left: 100px;
+	margin-top: 0px;
+	position: absolute;
+	top: 140px;
+	height: 50px;
+}
+
+.weather-div {
+	display: inline;
+	position: relative;
+	top: 20px;
+	left: 475px;
+}
+
+.weather-tr {
+	position: absolute;
+	left: 105px;
+	top: 0px;
+	width: 330px;
+}
+
+.weather-tr-1 {
+	position: absolute;
+	left: 105px;
+	top: 20px;
+}
+
+.td {
+	width: 42px;
+	padding-right: 5px;
+}
+
+.th {
+	width: 42px;
+	padding-right: 7px;
+}
+
+.icon-img {
+	width: 30px;
+	margin-right: 9px;
+}
+
+.weather-div {
+	visibility: hidden;
+}
+
+.icon {
+	visibility: hidden;
+	position: absolute;
+	left: 575px;
+	top: 70px;
+	width: 320px;
+}
+
+main {
+	position: absolute;
+	top: 220px;
+	height: 600px;
+
+
+}
+
+.date {
+	background-color: white;
+	border: 1px solid #5B5B5B;
+	position: relative;
+	top: 0px;
+	left: 30px;
+	width: 1180px;
+	height: 70px;
+	color: #5B5B5B;
+	border-radius: 10px;
+}
+
+.checkin {
+	position: relative;
+	top: 9px;
+	left: 70px;
+	font-size: 25px;
+}
+
+.checkout {
+	position: relative;
+	top: 9px;
+	left: 115px;
+	font-size: 25px;
+}
+
+.date span {
+	/* font-weight: bold; */
+	position: relative;
+	top: 10px;
+	left: 40px;
+	font-size: 31px;
+}
+
+#start_date {
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	position: relative;
+	top: 7px;
+	left: 90px;
+	border-radius: 10px;
+	border: 1px solid #5B5B5B;
+}
+
+#end_date {
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	position: relative;
+	top: 7px;
+	left: 140px;
+	border-radius: 10px;
+	border: 1px solid #5B5B5B;
+}
+
+
+.serach {
+	font-size: 17px;
+	color: white;
+	border: 1px solid #5B5B5B;
+	background-color: transparent;
+	position: relative;
+	left: 310px;
+	top: 5px;
+	border-radius: 10px;
+	background-color: #757575;
+}
+
+.roomcount {
+	position: relative;
+	top: 7px;
+	left: 70px;
+	height: 28px;
+	width: 60px;
+	border: 1px solid #5B5B5B;
+	border-radius: 10px;
+	color: #5B5B5B;
+	font-size: 18px;
+
+}
+
+.person {
+	position: relative;
+	top: 6.5px;
+	left: 80px;
+	height: 28px;
+	width: 60px;
+	border: 1px solid #5B5B5B;
+	border-radius: 10px;
+	color: #5B5B5B;
+	font-size: 18px;
+}
+
+.room {
+
+	border: 1px solid #5B5B5B;
+	border-radius: 10px;
+	width: 1180px;
+	height: 400px;
+	position: absolute;
+	top: 100px;
+	left: 30px;
+}
+
+#collapseOne {
+	border: 1px solid #5B5B5B;
+	border-radius: 10px;
+}
+
+/* #collapseTwo{
+	border: 1px solid #5B5B5B;
+	border-radius: 10px;
+} */
+
+
+.info-1 {
+	height: 600px;
+}
+
+.info-1 input {
+	width: 270px;
+	height: 50px;
+	border: 1px solid #5B5B5B;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-right: 5.3px;
+	font-size: 18px;
+	text-align: left;
+}
+
+.info-1 input:hover {
+	border: 3px solid #5B5B5B;
+}
+
+.info-1 textarea:hover {
+	border: 3px solid #5B5B5B;
+}
+
+.info-1 label {
+	position: relative;
+	top: 60px;
+	left: -280px;
+	color: #5B5B5B;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.info-1 textarea {
+	position: relative;
+	top: 30px;
+	border: 1px solid #5B5B5B;
+	border-radius: 10px;
+}
+
+.c {
+	font-size: 17px;
+	color: white;
+	border: 1px solid #5B5B5B;
+	background: linear-gradient(45deg, #999, #444);
+	width: 100px;
+	height: 50px;
+	position: relative;
+	left: 450px;
+	top: -20px;
+	border-radius: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .2s linear;
+}
+
+.c:hover {
+	letter-spacing: 2px;
+	opacity: .8;
+
+}
+
+.cah {
+	position: absolute;
+	top: -120px;
+	left: 40px;
+}
+
+.cho {
+	position: absolute;
+	top: -165px;
+	left: 40px;
+	font-size: 25px;
+	color: #5B5B5B;
+	font-weight: bold;
+}
+
+#cashlabel {
+	font-size: 22px;
+}
+
+#crlabel {
+	font-size: 22px;
+}
+
+* {
+	/* font-family: 'Poppins', sans-serif; */
+	/* margin:0; padding:0; */
+	/* box-sizing: border-box; */
+	outline: none;
+	border: none;
+	text-decoration: none;
+	/* text-transform: uppercase; */
+}
+
+.container {
+	/* min-height: 100vh; */
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+	/* border: 1px solid red; */
+	/* border-top: transparent; */
+	/* background: #eee; */
+	/* display:grid; */
+	/* align-items: center; */
+	justify-content: center;
+	flex-flow: column;
+	padding-bottom: 60px;
+	font-size: 23px;
+	left: -55px;
+	top: 250px;
+	height: 550px;
+	padding: 0;
+
+}
+
+.card-container {
+	/* border: 1px solid black; */
+	position: absolute;
+	z-index: 1;
+	margin-left: 25px;
+	margin-top: -90px;
+}
+
+
+.container form {
+	/* border: 1px solid red; */
+	background: #fff;
+	position: relative;
+	left: 70px;
+	top: -220px;
+	margin-top: 170px;
+	border-radius: 10px;
+	box-shadow: 0 10px 15px rgba(0, 0, 0, .8);
+	padding: 20px;
+	width: 500px;
+	padding-top: 100px;
+	visibility: hidden;
+}
+
+.container form .inputBox {
+	margin-top: 20px;
+}
+
+.container form .inputBox span {
+	display: block;
+	color: #999;
+	padding-bottom: 5px;
+}
+
+.container form .inputBox input,
+.container form .inputBox select {
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, .3);
+	color: #444;
+}
+
+.container form .flexbox {
+	display: flex;
+	gap: 15px;
+}
+
+.container form .flexbox .inputBox {
+	flex: 1 1 150px;
+}
+
+.container form .submit-btn {
+	width: 100%;
+	background: linear-gradient(45deg, #999, #444);
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .2s linear;
+}
+
+.submit-top {
+	width: 100%;
+	background: linear-gradient(45deg, #999, #444);
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .2s linear;
+	visibility: hidden;
+}
+
+.submit-top:hover {
+	letter-spacing: 2px;
+	opacity: .8;
+}
+
+.container form .submit-btn:hover {
+	letter-spacing: 2px;
+	opacity: .8;
+}
+
+.container .card-container {
+	margin-bottom: -150px;
+	position: relative;
+	height: 250px;
+	width: 400px;
+	left: 150px;
+	top: 70px
+}
+
+.container .card-container #front {
+	position: absolute;
+	height: 250px;
+	width: 400px;
+	top: -155px;
+	left: -55px;
+	background: linear-gradient(45deg, #999, #444);
+	border-radius: 10px;
+	backface-visibility: hidden;
+	box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+	padding: 20px;
+	transform: perspective(1000px) rotateY(0deg);
+	transition: transform .4s ease-out;
+	visibility: hidden;
+}
+
+.container .card-container #back {
+	position: absolute;
+	top: -155px;
+	left: -55px;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(45deg, #999, #444);
+	border-radius: 5px;
+	padding: 20px 0;
+	text-align: right;
+	backface-visibility: hidden;
+	box-shadow: 0 15px 25px rgba(0, 0, 0, .2);
+	transform: perspective(1000px) rotateY(180deg);
+	transition: transform .4s ease-out;
+	visibility: hidden;
+}
+
+.container .card-container #front .image {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+.container .card-container #front .image img {
+	height: 50px;
+}
+
+.container .card-container #front .card-number-box {
+	padding: 30px 0;
+	font-size: 22px;
+	color: #fff;
+}
+
+.container .card-container #front .flexbox {
+	display: flex;
+}
+
+.container .card-container #front .flexbox .box:nth-child(1) {
+	margin-right: auto;
+}
+
+.container .card-container #front .flexbox .box {
+	font-size: 15px;
+	color: #fff;
+}
+
+.container .card-container #back .stripe {
+	background: #000;
+	width: 100%;
+	margin: 10px 0;
+	height: 50px;
+}
+
+.container .card-container #back .box {
+	padding: 0 20px;
+}
+
+.container .card-container #back .box span {
+	color: #fff;
+	font-size: 15px;
+}
+
+.container .card-container #back .box #cvv-box {
+	height: 50px;
+	padding: 10px;
+	margin-top: 5px;
+	color: #333;
+	background: #fff;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.container .card-container #back .box img {
+	margin-top: 30px;
+	height: 30px;
+}
+
+.accordion-header span {
+	font-size: 30px;
+	color: #5B5B5B;
+	font-weight: bold;
+}
+
+.accordion-button {
+	background-color: #DADADA !important;
+}
+
+#carouselExampleControls {
+	position: absolute;
+	top: 0;
+	width: 500px;
+	height: 348px;
+	border-radius: 10px 0px 0px 0px;
+}
+
+#carouselExampleControls img {
+	width: 500px;
+	height: 398px;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.title {
+    position: absolute;
+    top: 20px;
+    left: 550px;
+    /* font-weight: bold; */
+    font-size: 50px;
+    width: 230px;
+}
+
+.price {
+    position: absolute;
+    top: 340px;
+    left: 950px;
+    width: 100px;
+    font-size: 40px;
+}
+
+.content {
+    position: absolute;
+    top: 90px;
+    left: 560px;
+    height: 150px;
+    width: 600px;
+    font-size: 25px;
+    text-align: justify;
+    text-spacing: space-adjacent;
+}
+
+.free {
+    position: absolute;
+    top: 360px;
+    left: 560px;
+    font-size: 25px;
+}
+
+.pay {
+    position: absolute;
+    top: 320px;
+    left: 560px;
+    font-size: 25px;
+}
+
+.info {
+	width: 600px;
+	height: 243px;
+	position: absolute;
+	top: 500px;
+	left: 30px;
+}
+
+
+footer {
+	position: absolute;
+	bottom:-250px;
+	width: 100vw;
+	height: 80px;
+	background-color: black;
+	margin-top: 20px;
+
+
+}
+
+footer p {
+	width: 100vw;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 2px;
+	position: relative;
+	top: 20px;
+}
+
+.textinfo {
+	width: 70px;
+	position: fixed;
+	bottom: 30px;
+	right: 80px;
+	margin-bottom: 60px;
+}
+.textinfo img{
+	width:70px;
+	height:70px;
+}
+.tot{
+	position:relative;
+	left:30px;
+}
+.prr{
+	position:relative;
+	left:-20px;
+}
+/* =====================���嚙踝蕭�����蕭======================= */
+.chat {
+	width: 350px;
+	position: fixed;
+	bottom: 30px;
+	right: 200px;
+	margin-bottom: 60px;
+	/* background-color: red; */
+	height: 350px;
+	display:none;
+}
+
+.panel {
+	float: right;
+	/* border-radius: 5px; */
+	width: 50%;
+}
+
+.message-area {
+	height: 80%;
+	resize: none;
+	box-sizing: border-box;
+	overflow: auto;
+	background-color: #ffffff;
+	width: 350px;
+	position: absolute;
+	top: 30px;
+	bottom: 77px;
+	border-left: 2px solid #454646;
+	border-right: 2px solid #454646;
+	border-top: 2px solid #454646;
+}
+
+.input-area {
+	background: #E9EDED;
+	/* box-shadow: inset 0 0 10px #00568c; */
+	position: absolute;
+	width: 350px;
+	/* height: 50px; */
+	position: absolute;
+	bottom: -36px;
+	height: 77px;
+	border-left: 2px solid #454646;
+	border-right: 2px solid #454646;
+	border-bottom: 2px solid #454646;
+	border-top: 2px solid #454646;
+	border-radius: 0px 0px 20px 20px;
+}
+
+.input-area input {
+	margin: 0.5em 0em 0.5em 0.5em;
+}
+
+.text-field {
+	border: 1px solid grey;
+	padding: 0.2em;
+	/* box-shadow: 0 0 5px #000000; */
+}
+
+h1 {
+	font-size: 1.5em;
+	padding: 5px;
+	margin: 5px;
+}
+
+#message {
+	min-width: 277px;
+	max-width: 277px;
+	border: 2px solid #454646;
+	height: 55px;
+	position: absolute;
+	bottom: 0px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.statusOutput {
+	background-color: #E9EDED;
+	text-align: center;
+	color: #ffffff;
+	border-top: 2px solid #454646;
+	border-right: 2px solid #454646;
+	border-left: 2px solid #454646;
+	/* padding: 0.2em; */
+	/* box-shadow: 0 0 5px #000000; */
+	width: 100%;
+	/* margin-top: 10%; */
+	margin: 0;
+	height: 37px;
+	position: absolute;
+	top: -6px;
+	/* z-index: 1; */
+	color: #454646;
+	font-size: 25px;
+	padding-bottom: 10px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+#row {
+	float: left;
+	width: 50%;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 5%;
+	margin-bottom: 5px;
+	background-color: #ffffff;
+}
+
+.chat ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.chat ul li {
+	display: inline-block;
+	clear: both;
+	padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 2px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.friend {
+	background: #eee;
+	float: left;
+}
+
+.friend a {
+	color:darkgray;
+	font-size: 18px;
+}
+.friend a:hover{
+	color: #454646;
+}
+
+.me {
+	float: right;
+	background: #0084ff;
+	color: #fff;
+}
+
+.friend+.me {
+	border-bottom-right-radius: 5px;
+}
+
+.me+.me {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.me:last-of-type {
+	border-bottom-right-radius: 30px;
+}
+
+#sendMessage {
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+	height: 55px;
+	background-color: #E9EDED;
+	border: 2px solid #454646;
+	border-radius: 10px;
+}
+
+#sendMessage:hover {
+	background-color: #D4D9DC;
+}
+
+/* 嚙踝蕭豲蕭謍箄頩���釭豰��蕭����╡�嚙踐���
+#connect{
+	position: absolute;
+	bottom: 0px;
+}
+#disconnect{
+	position: absolute;
+	bottom: 0px;
+}
+ /* 嚙踝蕭豲蕭謍箄頩���釭豰��蕭����╡�嚙踐��� */

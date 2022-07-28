@@ -1,0 +1,779 @@
+@charset "BIG5";
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body {
+	height: 100%;
+	margin: 0;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "cwTeXYen", sans-serif;
+}
+
+.nav-ul-bot {
+	display: inline;
+}
+
+.nav-ul-top {
+	display: inline;
+}
+
+.nav-li {
+	display: inline-block;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav-left-div p {
+	width: 80px;
+	color: black;
+	font-size: 20px;
+	display: block;
+	width: 100%;
+	border-right: 2px solid black;
+	padding-right: 12px;
+	color: #7D7D7D;
+	border-color: #7D7D7D;
+}
+
+.nav-left-div p:hover {
+	border-top: solid 3px black;
+	margin-top: 3px;
+	border-color: #7D7D7D;
+}
+
+header {
+	height: 90px;
+}
+
+hr {
+	height: 3px;
+	background-color: gray;
+}
+
+nav {
+	height: 200px;
+	width: 1263px;
+}
+
+.nav-top-a {
+	display: block;
+	position: absolute;
+	top: 40px;
+	left: 1150px;
+	width: 50px;
+}
+
+.nav-logo {
+	width: 400px;
+	height: 94px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.nav-left-div {
+	margin-top: 10px;
+}
+
+.nav-top-div {
+	display: inline;
+	width: 50px;
+	position: relative;
+	top: -5px;
+	right: 120px;
+}
+
+.nav-top-img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 40px;
+	left: 900px;
+}
+
+.nav-top-img-1 {
+	width: 50px;
+	height: 50px;
+}
+
+.nav-top-top {
+	display: inline;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1206px;
+
+}
+
+.nav-top {
+	display: inline;
+	position: relative;
+	top: 0px;
+	right: -280px;
+
+}
+
+.text {
+	border: 2px;
+	border-radius: 20px;
+	border: 1px black;
+	background-color: #757575;
+	font-size: 20px;
+	padding: 8px 20px 8px 20px;
+	color: white;
+	width: 170px;
+	position: absolute;
+	top: 45px;
+	left: 967px;
+	text-align: center;
+}
+
+.nav-top-bot {
+	margin-left: 100px;
+	margin-top: 0px;
+	position: absolute;
+	top: 140px;
+	height: 50px;
+}
+
+.weather-div {
+	display: inline;
+	position: relative;
+	top: 20px;
+	left: 475px;
+}
+
+.weather-tr {
+	position: absolute;
+	left: 95px;
+	top: 15px;
+	width: 330px;
+}
+
+.weather-tr-1 {
+	position: absolute;
+	left: 95px;
+	top: 35px;
+}
+
+.td {
+	width: 42px;
+	padding-right: 5px;
+}
+
+.th {
+	width: 42px;
+	padding-right: 7px;
+}
+
+.icon-img {
+	width: 30px;
+	margin-right: 9px;
+}
+
+.weather-div {
+	visibility: hidden;
+}
+
+.icon {
+	visibility: hidden;
+	position: absolute;
+	left: 575px;
+	top: 70px;
+	width: 320px;
+}
+	/* =============================================== */
+
+main {
+    /* border: 3px solid #3475e6; */
+    position: relative;
+/* 	height: 100%; */
+    width: 1206px;
+	left: 30px;
+	top: 120px;
+	margin-bottom:120px;
+}
+.newspost{
+	position: relative;
+	top: 5px;
+	left: 12px;
+	height: 308px;
+	width: 1170px;
+	margin-bottom:5px;
+}
+
+/* ====================== */
+div.slide-down {
+    width:100%;
+    overflow:hidden;
+    position: absolute;
+    left: 320px;
+    top: 120px;
+
+  }
+  div.slide-down p {
+    animation: 1.5s slide-down;
+    margin-top:0%;
+    font-size: 80px;
+    color: #fbf9f9;
+    text-shadow: black 0.1em 0.1em 0.2em;
+	font-family: 'Tai Heritage Pro', serif;
+	position: relative;
+  }
+  
+  @keyframes slide-down {
+    from {
+      margin-top: -8%;
+      height: 300%; 
+    }
+    to {
+      margin-top: 0%;
+      height: 100%;
+    }
+  }
+
+
+/* =====================================================��頦��剖��頦��哨蕭嚙賡�佗蕭嚙賢��嚙踝蕭��嚙賢��鞈哨蕭嚙賢�刻�剖��鞈ｇ蕭嚙賢��嚙�================================================  */
+div.news1 {
+    border: 2px solid white;
+    position: relative;
+	width: 95%;
+	margin-top: 20px;
+	height:420px;
+/*     top: 30px; */
+	left: 30px;
+}
+
+h1.news1-tt{
+	/* border: 1px solid red; */
+	margin-left: 60px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	/* text-align: left; */
+}
+.news1-t1{
+	/* border: 3px solid black; */
+	display: inline-block;
+	height: 100%;
+	/* margin-right: 500px; */
+}
+.news1-img1{
+	height: 50px;
+	width: 10px;
+	margin-bottom: -5px;
+
+}
+.news1-img2{
+	height: 300px;
+	width: 580px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.news01{
+/* 	border: 3px solid red;  */
+	position: absolute;
+	top:75px;
+	right: 50px;
+	display: inline-block;
+	height: 100;
+	width: 430px;
+	font-size: 20px;
+}
+h3.news1-t3{
+	/* border: 2px solid rgb(122, 122, 25); */
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+p.new1-t4{
+/* 	border: 3px solid rgb(55, 108, 244); */
+	display: inline;
+	margin-left: 95px;
+	font-size: 16px;
+}
+
+p.news1-t4{
+/* 	border: 3px solid palegreen; */
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.text-more1 {
+    border: 3px solid rgb(120, 120, 120);
+    background-color: rgb(120, 120, 120);
+    font-size: 16px;
+	color: rgb(255, 255, 255);
+    padding: 8px 10px 8px 10px;
+    width: 120px;
+    position: absolute;
+    left: 305px;
+    text-align: center;
+    top: 262px;
+}
+
+
+/* <================================��頦��剖��頦��哨蕭嚙賡��嚙賢��鞈哨蕭嚙賢�刻�剖��鞈ｇ蕭嚙賢��嚙�==========================================> */
+
+.news2 {
+    border: 3px solid white;
+    position: relative;
+	width: 95%;
+/*     top: 20px; */
+	left: 30px;
+/* 	margin-bottom: 40px; */
+	height:420px;
+}
+
+.news2-t1{
+/* 	border: 3px solid black; */
+	display: inline-block;
+	position: relative;
+	left: 450px;
+}
+h1.news2-tt{
+/* 	border: 1px solid red; */
+	display: inline-block;
+	margin-left: 60px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	position: relative;
+	left:110px;
+}
+.news2-img1{
+	height: 50px;
+	width: 10px;
+	margin-bottom: -5px;
+
+}
+.news2-img2{
+	height: 300px;
+	width: 580px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.news02{
+/* 	border: 3px solid red;  */
+	position: absolute;
+	top:112px;
+	right: 650px;
+	display: inline-block;
+	height: 100;
+	width: 430px;
+	font-size: 20px;
+}
+h3.news2-t3{
+/* 	border: 2px solid rgb(122, 122, 25); */
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+p.new2-t4{
+/* 	border: 3px solid rgb(55, 108, 244); */
+	display: inline;
+	position: relative;
+	right:-76px;
+	font-size: 16px;
+}
+
+p.news2-t4{
+	/* border: 3px solid palegreen; */
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.text-more2 {
+    border: 3px solid rgb(120, 120, 120);
+    background-color: rgb(120, 120, 120);
+    font-size: 16px;
+	color: rgb(255, 255, 255);
+    padding: 8px 10px 8px 10px;
+    width: 120px;
+    position: absolute;
+	top: 200px;
+    left: 305px;
+    text-align: center;
+}
+
+
+/* =====================================================��頦��剖��頦��哨蕭嚙賡�佗蕭嚙賢��嚙踝蕭��嚙賢��鞈哨蕭嚙賢�刻�剖��鞈ｇ蕭嚙賢��嚙�================================================  */
+div.news3 {
+    border: 2px solid white;
+    position: relative;
+	width: 95%;
+/* 	top: 10px; */
+	height:420px;
+	left: 30px;
+}
+
+h1.news3-tt{
+	/* border: 1px solid red; */
+	margin-left: 60px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	/* text-align: left; */
+}
+.news3-t1{
+	/* border: 3px solid black; */
+	display: inline-block;
+	height: 100%;
+	/* margin-right: 500px; */
+}
+.news3-img1{
+	height: 50px;
+	width: 10px;
+	margin-bottom: -5px;
+
+}
+.news3-img2{
+	height: 300px;
+	width: 580px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.news03{
+/* 	border: 3px solid red;  */
+	position: absolute;
+	top:75px;
+	right: 50px;
+	display: inline-block;
+	height: 100;
+	width: 430px;
+	font-size: 20px;
+}
+h3.news3-t3{
+	/* border: 2px solid rgb(122, 122, 25); */
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+p.new3-t4{
+/* 	border: 3px solid rgb(55, 108, 244); */
+	display: inline;
+	font-size: 16px;
+	position: relative;
+	right:-52px;
+	
+}
+
+
+p.news3-t4{
+/* 	border: 3px solid palegreen; */
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.text-more3 {
+    border: 3px solid rgb(120, 120, 120);
+    background-color: rgb(120, 120, 120);
+    font-size: 16px;
+	color: rgb(255, 255, 255);
+    padding: 8px 10px 8px 10px;
+    width: 120px;
+    position: absolute;
+	top: 235px;
+    left: 305px;
+    text-align: center;
+}
+
+
+/* <================================��頦��剖��頦��哨蕭嚙賡�佗蕭嚙賢�刻�剝�選蕭嚙賢�刻�剖��鞈ｇ蕭嚙賢��嚙�==========================================> */
+
+.news4 {
+    border: 3px solid white;
+    position: relative;
+	width: 95%;
+/*     top: 20px; */
+	left: 30px;
+	height:420px;
+	margin-bottom: 40px;
+}
+
+.news4-t1{
+/* 	border: 3px solid black; */
+	display: inline-block;
+	width: 900px;
+	position: relative;
+	left: 450px;
+}
+h1.news4-tt{
+/* 	border: 1px solid red; */
+	display: inline-block;
+	margin-left: 60px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	position: relative;
+	left:320px;
+}
+.news4-img1{
+	height: 50px;
+	width: 10px;
+	margin-bottom: -5px;
+
+}
+.news4-img2{
+	height: 300px;
+	width: 580px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.news04{
+/* 	border: 3px solid red;  */
+	position: absolute;
+	top:75px;
+	right: 650px;
+	display: inline-block;
+	height: 100;
+	width: 430px;
+	font-size: 20px;
+}
+h3.news4-t3{
+/* 	border: 2px solid rgb(122, 122, 25); */
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+p.new4-t4{
+/* 	border: 3px solid rgb(55, 108, 244); */
+	display: inline;
+	position: relative;
+	right:-92px;
+	font-size: 16px;
+}
+
+p.news4-t4{
+/* 	border: 3px solid palegreen; */
+	margin-top: 12px;
+	margin-left: 10px;
+}
+.text-more4 {
+    border: 3px solid rgb(120, 120, 120);
+    background-color: rgb(120, 120, 120);
+    font-size: 16px;
+	color: rgb(255, 255, 255);
+    padding: 8px 10px 8px 10px;
+    width: 120px;
+    position: absolute;
+	top: 251px;
+    left: 305px;
+    text-align: center;
+}
+
+/* ============================================ */
+footer {
+    background-color: black;
+    height: 80px;
+    /* width: 1362px; */
+    margin-top: 20px;
+    position: relative;
+   	top:40px;
+}
+
+footer p {
+	width: 100vw;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 2px;
+	position: relative;
+	top: 20px;
+}
+
+.textinfo {
+	width: 70px;
+	position: fixed;
+	bottom: 30px;
+	right: 80px;
+	margin-bottom: 60px;
+}
+
+.textinfo img {
+	width: 70px;
+	height: 70px;
+}
+/* =====================��頦��哨蕭雿��剖��鞈ｇ蕭�鳴蕭��嚙踝蕭���渲�哨蕭�鳴蕭��嚙踝蕭��嚚��剖��頦��剖��嚙�======================= */
+.chat {
+	width: 350px;
+	position: fixed;
+	bottom: 30px;
+	right: 200px;
+	margin-bottom: 60px;
+	/* background-color: red; */
+	height: 350px;
+	display:none;
+}
+
+.panel {
+	float: right;
+	/* border-radius: 5px; */
+	width: 50%;
+}
+
+.message-area {
+	height: 80%;
+	resize: none;
+	box-sizing: border-box;
+	overflow: auto;
+	background-color: #ffffff;
+	width: 350px;
+	position: absolute;
+	top: 30px;
+	bottom: 77px;
+	border-left: 2px solid #454646;
+	border-right: 2px solid #454646;
+	border-top: 2px solid #454646;
+}
+
+.input-area {
+	background: #E9EDED;
+	/* box-shadow: inset 0 0 10px #00568c; */
+	position: absolute;
+	width: 350px;
+	/* height: 50px; */
+	position: absolute;
+	bottom: -36px;
+	height: 77px;
+	border-left: 2px solid #454646;
+	border-right: 2px solid #454646;
+	border-bottom: 2px solid #454646;
+	border-top: 2px solid #454646;
+	border-radius: 0px 0px 20px 20px;
+}
+
+.input-area input {
+	margin: 0.5em 0em 0.5em 0.5em;
+}
+
+.text-field {
+	border: 1px solid grey;
+	padding: 0.2em;
+	/* box-shadow: 0 0 5px #000000; */
+}
+
+h1 {
+	font-size: 2em;
+	padding: 5px;
+	margin: 5px;
+}
+
+#message {
+	min-width: 277px;
+	max-width: 277px;
+	border: 2px solid #454646;
+	height: 55px;
+	position: absolute;
+	bottom: 0px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.statusOutput {
+	background-color: #E9EDED;
+	text-align: center;
+	color: #ffffff;
+	border-top: 2px solid #454646;
+	border-right: 2px solid #454646;
+	border-left: 2px solid #454646;
+	/* padding: 0.2em; */
+	/* box-shadow: 0 0 5px #000000; */
+	width: 100%;
+	/* margin-top: 10%; */
+	margin: 0;
+	height: 37px;
+	position: absolute;
+	top: -6px;
+	/* z-index: 1; */
+	color: #454646;
+	font-size: 25px;
+	padding-bottom: 10px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+#row {
+	float: left;
+	width: 50%;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 5%;
+	margin-bottom: 5px;
+	background-color: #ffffff;
+}
+
+.chat ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.chat ul li {
+	display: inline-block;
+	clear: both;
+	padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 2px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.friend {
+	background: #eee;
+	float: left;
+}
+
+.friend a {
+	color:darkgray;
+	font-size: 18px;
+}
+.friend a:hover{
+	color: #454646;
+}
+
+.me {
+	float: right;
+	background: #0084ff;
+	color: #fff;
+}
+
+.friend+.me {
+	border-bottom-right-radius: 5px;
+}
+
+.me+.me {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.me:last-of-type {
+	border-bottom-right-radius: 30px;
+}
+
+#sendMessage {
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+	height: 55px;
+	background-color: #E9EDED;
+	border: 2px solid #454646;
+	border-radius: 10px;
+}
+
+#sendMessage:hover {
+	background-color: #D4D9DC;
+}
+
+/* 嚙踝蕭�佗蕭嚙賢��嚙踝蕭�佗蕭嚙賢�刻�剖��鞈∴蕭雿��剖��頦��剖��頦��哨蕭雿��剖��鞈ｇ蕭�鳴蕭��嚙賜忽�哨蕭嚙賢��鞈∴蕭嚙賢��鞈ｇ蕭嚙賡�佗蕭嚙賢��嚙賜忽�剖��鞈�嚙賢��頦��哨蕭雿��哨蕭嚙賡��嚙賢��鞈Ｙ�亙��鞈ｇ蕭嚙賢��頦��哨蕭嚙賢��嚙�
+#connect{
+	position: absolute;
+	bottom: 0px;
+}
+#disconnect{
+	position: absolute;
+	bottom: 0px;
+}

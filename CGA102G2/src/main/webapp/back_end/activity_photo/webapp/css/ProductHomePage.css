@@ -1,0 +1,729 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+ /* body {
+  margin: 0;
+  border: 1px solid red;
+  width: 1227px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+} */
+
+ html {
+  overflow-x: hidden;
+  --header-height: 60px;
+  /* �嚙踝蕭嚙踝�蕭�� */
+  --aside-width: 180px;
+} 
+
+/* * {
+  box-sizing: border-box;
+  font-family: "cwTeXYen", sans-serif;
+}
+
+
+.nav-ul-top {
+  display: inline;
+}
+
+.nav-ul-bot {
+  display: inline;
+}
+
+.nav-li {
+  display: inline-block;
+  list-style: none;
+}
+
+.nav-li > a{
+  
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+} */
+
+
+
+
+
+
+/* .nav-left-div p {
+  width: 80px;
+  color: black;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  border-right: 2px solid black;
+  padding-right: 12px;
+  color: #7D7D7D;
+  border-color: #7D7D7D;
+}
+
+嚙踝�蕭嚙緘:hover
+.nav-left-div:hover {
+  border-top: solid 3px black;
+  margin-top: 3px;
+  border-color: #7D7D7D;
+} */
+
+/* header {
+  height: 90px;
+}
+
+hr {
+  height: 3px;
+  background-color: gray;
+}
+
+nav {
+  height: 200px;
+  width: 1263px;
+}
+
+.nav-top-a {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 1150px;
+  width: 50px;
+}
+
+.nav-logo {
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.nav-left-div {
+  margin-top: 10px;
+}
+
+
+.nav-top-div {
+  display: inline;
+  width: 50px;
+  position: relative;
+  top: -5px;
+  right: 120px;
+}
+
+.nav-top-img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 40px;
+  left: 900px;
+}
+
+.nav-top-img-1 {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-top-top {
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1206px;
+
+}
+
+.nav-top {
+  display: inline;
+  position: relative;
+  top: 0px;
+  right: -280px;
+
+}
+
+.text {
+  border: 2px;
+  border-radius: 20px;
+  border: 1px black;
+  background-color: #757575;
+  font-size: 20px;
+  padding: 8px 20px 8px 20px;
+  color: white;
+  width: 170px;
+  position: absolute;
+  top: 40px;
+  left: 965px;
+  text-align: center;
+}
+
+.nav-top-bot {
+  margin-left: 100px;
+  margin-top: 0px;
+  position: relative;
+  top: 145px;
+  height: 50px;
+  text-align: center;
+}
+
+.weather-div {
+  display: inline;
+  position: relative;
+  top: 20px;
+  left: 475px;
+}
+
+.weather-tr {
+  position: absolute;
+  left: 90px;
+  top: 0px;
+  width: 330px;
+}
+
+.weather-tr-1 {
+  position: absolute;
+  left: 90px;
+  top: 20px;
+}
+
+.td {
+  width: 42px;
+  padding-right: 5px;
+}
+
+.th {
+  width: 42px;
+  padding-right: 7px;
+}
+
+.icon-img {
+  width: 30px;
+  margin-right: 9px;
+}
+
+.weather-div {
+  visibility: hidden;
+}
+
+.icon {
+  visibility: hidden;
+  position: absolute;
+  left: 575px;
+  top: 75px;
+  width: 320px;
+}  */
+
+body {
+ margin: 0;
+ height: 100%;
+}
+
+/* html {
+ overflow-x: hidden;
+} */
+
+* {
+ box-sizing: border-box;
+ font-family: "cwTeXYen", sans-serif;
+}
+
+.nav-ul-bot {
+ display: inline;
+
+}
+
+.nav-ul-top {
+ display: inline;
+}
+
+.nav-li {
+ display: inline-block;
+ list-style: none;
+}
+
+a {
+ text-decoration: none !important;
+}
+
+.nav-left-div p {
+ width: 80px;
+ color: black;
+ font-size: 20px;
+ display: block;
+ width: 100%;
+ border-right: 2px solid black;
+ padding-right: 12px;
+ color: #7D7D7D;
+ border-color: #7D7D7D;
+ border-top: 3px solid transparent;
+}
+
+.nav-left-div p:hover {
+ border-top: solid 3px black;
+
+ border-color: #7D7D7D;
+}
+
+header {
+ height: 90px;
+}
+
+hr {
+ height: 3px;
+ background-color: gray;
+}
+
+nav {
+ height: 200px;
+ width: 1263px;
+}
+
+.nav-top-a {
+ display: block;
+ position: absolute;
+ top: 40px;
+ left: 1150px;
+ width: 50px;
+}
+
+.nav-logo {
+ width: 400px;
+ height: 100px;
+ position: absolute;
+ top: 10px;
+ left: 10px;
+}
+
+.nav-left-div {
+ margin-top: 10px;
+}
+
+.nav-top-div {
+ display: inline;
+ width: 50px;
+ position: relative;
+ top: -5px;
+ right: 120px;
+}
+
+.nav-top-img {
+ width: 50px;
+ height: 50px;
+ position: absolute;
+ top: 40px;
+ left: 900px;
+}
+
+.nav-top-img-1 {
+ width: 50px;
+ height: 50px;
+}
+
+.nav-top-top {
+ display: inline;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 1206px;
+
+}
+
+.nav-top {
+ display: inline;
+ position: relative;
+ top: 0px;
+ right: -280px;
+
+}
+
+.text {
+ border: 2px;
+ border-radius: 20px;
+ border: 1px black;
+ background-color: #757575;
+ font-size: 20px;
+ padding: 8px 20px 8px 20px;
+ color: white;
+ width: 170px;
+ position: absolute;
+ top: 45px;
+ left: 967px;
+ text-align: center;
+}
+
+.nav-top-bot {
+ margin-left: 100px;
+ margin-top: 0px;
+ position: absolute;
+ top: 140px;
+ height: 50px;
+}
+
+.weather-div {
+ display: inline;
+ position: relative;
+ top: 20px;
+ left: 475px;
+}
+
+.weather-tr {
+ position: absolute;
+ left: 95px;
+ top: 0px;
+ width: 330px;
+}
+
+.weather-tr-1 {
+ position: absolute;
+ left: 95px;
+ top: 20px;
+}
+
+.td {
+ width: 42px;
+ padding-right: 5px;
+}
+
+.th {
+ width: 42px;
+ padding-right: 7px;
+}
+
+.icon-img {
+ width: 30px;
+ margin-right: 9px;
+}
+
+.weather-div {
+ visibility: hidden;
+}
+
+.icon {
+ visibility: hidden;
+ position: absolute;
+ left: 575px;
+ top: 70px;
+ width: 320px;
+}
+
+
+
+/* ==========================new=========================== */
+/* ��鼎嚙踝�冪���嚙踝蕭嚙� */
+#myCarousel{
+  /* border: 2px solid red; */
+  margin-left: 35px;
+}
+.carousel .item {
+  /* margin-top: 50px; */
+  height: 300px;
+}
+
+.carousel .item img {
+  min-height: 250px;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+.carousel-inner {
+  position: relative;
+  margin-top: 130px;
+}
+
+#img-id1{
+ 
+ width:1200px;
+ 
+}
+
+#slide1 {
+  height: 100px;
+  width: 50px;
+  margin-top: 90px;
+}
+
+#slide2 {
+  height: 100px;
+  width: 50px;
+  margin-top: 90px;
+  margin-right:28px;
+}
+
+/* ��鼎嚙踝�冪aside bar */
+aside {
+  border: 1px solid #757575;
+  /* position: fixed; */
+  border-radius: 10px; 
+  width: 180px;
+  margin-bottom: -60px;
+  height: 400px;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 100px;
+  text-align: left;
+}
+
+.aside_nav_list {
+  /* border: 1px solid blue; */
+  list-style: none;
+  padding: 12px 23px 13px;
+  margin-left: -10px;
+  /* display: inline-block; */
+  margin-top: -10px;
+  width: max-content;
+  top: 10px;
+  
+}
+
+.aside_nav_list>li>a {
+  color:#757575;
+  font-size: 24px;
+}
+
+.aside_nav_list>li>a:hover {
+  text-decoration: none;
+  /* font-size: 29px; */
+  color: rgb(33, 37, 41);
+ 
+  border-bottom: 3px solid #757575;
+  border-color: #7D7D7D;
+}
+
+.aside_nav_list>li {
+  color: white;
+  font-size: 28px;
+  width: fit-content;
+  padding: 10px;
+  display: block;
+  width: 130px;
+  margin: 0%;
+  /* border: 1px red; */
+
+}
+
+
+
+/* ��鼎嚙踝�冪main */
+.main {
+  width: calc(100% - var(--aside-width));
+  /* width:600px; */
+  margin-left: var(--aside-width);
+  position: relative;
+  /* left: var(--aside-width); */
+  bottom: 400px;
+  /* height: 100vh; */
+  display: inline-block;
+  /* padding: 20px; */
+  /* margin-top: -47%; */
+  /* position:sticky; */
+  /* vh��蕭��豱⊥�嚙踝�蕭謢嗆撞 */
+  min-height: calc(100vh-240px);
+  /* ���蕭蹓潘蕭��嚙踐朱瞍� */
+
+}
+
+/* 嚙踝蕭謚迎蕭�ar */
+
+.search-all{
+  
+  position:relative;
+  text-align: center;
+  right: 50px;
+}
+
+/* .search-form{
+  position: relative;
+  top:20px;
+} */
+
+.search-form{
+  display:inline-block;
+  border: 1px solid black;
+  background-color: #fff;
+  position: relative;
+  align-items: center;
+  /* top: 110%; right: 7%;  */
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+  top:0px;
+  right: -50px;
+}
+
+.search-form #search-box {
+  width: 100%;
+  border:#fff;
+  border-radius: 20px;
+  padding:5px;
+  font-size: 1.8rem;
+  color:var(--black);
+  outline-style: none;
+  
+  /* height:100%; */
+  
+}
+
+.search-form lable{
+  /* border: 1px solid black; */
+  padding: 8px;
+  padding-bottom: 14px;
+  border-radius: 8px;
+  position: absolute;
+  top: 0%;
+  right:0%;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.search-form lable:hover{
+  color:black;
+  background-color: #515151;
+}
+
+/* 嚙踝蕭豲蕭��嚙踝�蕭��蕭�蹓蕭謘� */
+.sort-form{
+ 
+ position:relative;
+ width:400px;
+ left:530px;
+ bottom:33px;
+}
+
+/* ���蕭�蹓蕭謘� */
+.select-bar{
+  position: relative;
+  bottom: 0px;
+  right: -205px;
+  height: 30px;
+  width: 150px;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
+#img-id1>.img1 {
+  position: absolute;
+  background-size: cover;
+  width: 1220px;
+   background-position: center center;
+
+}
+
+#img-id2>.img2 {
+  position: absolute;
+  background-size: cover;
+  width: 1220px;
+   background-position: center center;
+}
+
+#img-id3>.img3 {
+  position: absolute;
+  background-size: cover;
+  width: 1220px;
+  background-position: center center;
+}
+
+/* .img1{
+  padding-bottom: 100%;
+  width: 100%vw;
+  background-size: cover;
+}
+.img2{
+  width: 1206px;
+  background-size: cover;
+}
+.img3{
+  width: 1206px;
+  background-size: cover;
+} */
+
+
+
+
+
+
+
+/* 嚙踝蕭��蕭嚙� */
+.card-image {
+  display: block;
+  min-height: 26rem;
+  /* layout hack */
+  background: #fff center center no-repeat;
+  background-size: cover;
+  /* filter: blur(2px); */
+  /* blur the lowres image */
+  /* background-image: url("���嚙踐��嚙踝蕭.png"); */
+  
+}
+
+.card-image>img {
+  display: block;
+  width: 100%;
+  opacity: 0;
+  /* visually hide the img element */
+}
+
+.card-image.is-loaded {
+  filter: none;
+  /* remove the blur on fullres image */
+  transition: filter 1s;
+}
+
+.card-list {
+  display: block;
+  /* border: 1px solid red; */
+  margin: 1rem auto;
+  margin-right:180px;
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.card {
+  display: inline-block;
+  width: 95%;
+  max-width: 20rem;
+  margin: 2rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  overflow: hidden;
+  /* box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.2); */
+  border: 0.5px solid #757575;
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+}
+
+.card:hover {
+  transform: translateY(-0.5rem) scale(1.0125);
+  /* box-shadow: 0 0.5em 3rem -1rem rgba(0, 0, 0, 0.5); */
+}
+
+.card-description {
+  display: block;
+  padding: 40px 10px 0px 10px;
+  color: rgb(33, 37, 41);
+  text-decoration: none;
+  margin-bottom: 40px;
+
+}
+
+.card-description>h2 {
+  margin: 0 0 0.5em;
+}
+
+.card-description>p {
+  margin: 0;
+
+}
+
+.car {
+  /* border: 1px solid red; */
+  /* background-color: #7D7D7D; */
+  border: 2.5px solid #2a2a2a;
+  color: black;
+  padding: 8px;
+  width: 100px;
+  font-size: 18px;
+  /* margin-bottom: 100px; */
+  /* margin-bottom: 3000px; */
+  position: relative;
+  bottom: 20px;
+}
+
